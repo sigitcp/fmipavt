@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 18 Jan 2023 pada 11.39
+-- Waktu pembuatan: 09 Bulan Mei 2023 pada 09.21
 -- Versi server: 10.4.20-MariaDB
 -- Versi PHP: 8.0.9
 
@@ -47,7 +47,7 @@ INSERT INTO `denahs` (`id`, `nama`, `luas`, `kapasitas`, `denah`, `gedung_id`, `
 (2, 'H 1.1', 96, 70, 'denah/63645cf026343.gif', 1, '2023-01-18 03:33:10', '2023-01-18 03:33:10'),
 (3, 'H 1.4', 128, 100, 'denah/63645d21d57ec.gif', 1, '2023-01-18 03:33:10', '2023-01-18 03:33:10'),
 (4, 'Umum dan Perlengkapan', 192, 30, 'denah/6365f790837e1.gif', 1, '2023-01-18 03:33:11', '2023-01-18 03:33:11'),
-(5, 'Akademik', 152, 25, 'denah/6365f7d15e550.gif', 1, '2023-01-18 03:33:11', '2023-01-18 03:33:11'),
+(5, 'Akademik', 152, 25, 'denah/6365f7d15e550.gif', 1, '2023-01-18 03:33:11', '2023-05-02 03:09:45'),
 (6, 'Kepegawaian', 32, 6, 'denah/6365f8269f2c9.gif', 1, '2023-01-18 03:33:11', '2023-01-18 03:33:11'),
 (7, 'Tamu', 32, 8, 'denah/6365f8aa87ccf.gif', 1, '2023-01-18 03:33:11', '2023-01-18 03:33:11'),
 (8, 'Baca', 64, 30, 'denah/6365f8da0dcc2.gif', 1, '2023-01-18 03:33:11', '2023-01-18 03:33:11'),
@@ -99,7 +99,7 @@ INSERT INTO `denahs` (`id`, `nama`, `luas`, `kapasitas`, `denah`, `gedung_id`, `
 (54, 'F 3', 80, 50, 'denah/63661c7e9ffc2.gif', 2, '2023-01-18 03:33:18', '2023-01-18 03:33:18'),
 (55, 'F 4', 80, 50, 'denah/63661d1821ebd.gif', 2, '2023-01-18 03:33:18', '2023-01-18 03:33:18'),
 (56, 'C 3', 63, 50, 'denah/63661d7e29206.gif', 2, '2023-01-18 03:33:18', '2023-01-18 03:33:18'),
-(57, 'UKM', 0, 0, 'denah/63661f2e618d3.gif', 2, '2023-01-18 03:33:18', '2023-01-18 03:33:18'),
+(57, 'UKM', 0, 0, 'denah/1q13VphKAfjPwk8EdndhGaFxphLGlbeukFNwwDtJ.gif', 2, '2023-01-18 03:33:18', '2023-05-02 03:18:38'),
 (58, 'Aula 1', 63, 50, 'denah/6366200976953.gif', 2, '2023-01-18 03:33:19', '2023-01-18 03:33:19'),
 (59, 'Aula 2', 63, 50, 'denah/636620280998d.gif', 2, '2023-01-18 03:33:19', '2023-01-18 03:33:19'),
 (60, 'Laboratorium Zoologi', 140, 30, 'denah/636621bca74cd.gif', 2, '2023-01-18 03:33:19', '2023-01-18 03:33:19'),
@@ -111,7 +111,7 @@ INSERT INTO `denahs` (`id`, `nama`, `luas`, `kapasitas`, `denah`, `gedung_id`, `
 (66, 'Laboratorium Geofisika dan SIG', 80, 40, 'denah/636628e586b26.gif', 3, '2023-01-18 03:33:20', '2023-01-18 03:33:20'),
 (67, 'Laboratorium Pigmen', 12, 3, 'denah/63662cbb14999.gif', 3, '2023-01-18 03:33:20', '2023-01-18 03:33:20'),
 (68, 'Laboratorium Fisika Lanjut', 24, 4, 'denah/63662d1dae50a.gif', 3, '2023-01-18 03:33:20', '2023-01-18 03:33:20'),
-(69, 'ASS', 10, 1, 'denah/63662d4e9409c.gif', 3, '2023-01-18 03:33:20', '2023-01-18 03:33:20'),
+(69, 'AAS', 10, 1, 'denah/63662d4e9409c.gif', 3, '2023-01-18 03:33:20', '2023-05-02 03:55:47'),
 (70, 'Laboratorium Riset Kimia anorganik', 77, 25, 'denah/63662de7c360d.gif', 3, '2023-01-18 03:33:20', '2023-01-18 03:33:20'),
 (71, 'Kepala Bioteknologi dan Riset', 12, 2, 'denah/63662e49ecfa8.gif', 3, '2023-01-18 03:33:20', '2023-01-18 03:33:20'),
 (72, 'Laboratorium Ilmu Kelautan', 63, 22, 'denah/63662ec18a6f5.gif', 3, '2023-01-18 03:33:20', '2023-01-18 03:33:20'),
@@ -122,7 +122,15 @@ INSERT INTO `denahs` (`id`, `nama`, `luas`, `kapasitas`, `denah`, `gedung_id`, `
 (77, 'Siskom 1', 0, 0, 'denah/636630fd74d13.gif', 4, '2023-01-18 03:33:21', '2023-01-18 03:33:21'),
 (78, 'Siskom 2', 0, 0, 'denah/6366317ef23f9.gif', 4, '2023-01-18 03:33:21', '2023-01-18 03:33:21'),
 (79, 'Siskom 3', 0, 0, 'denah/636631b8a586b.gif', 4, '2023-01-18 03:33:22', '2023-01-18 03:33:22'),
-(80, 'Siskom 4', 0, 0, 'denah/636631d0958fd.gif', 4, '2023-01-18 03:33:22', '2023-01-18 03:33:22');
+(80, 'Siskom 4', 0, 0, 'denah/636631d0958fd.gif', 4, '2023-01-18 03:33:22', '2023-01-18 03:33:22'),
+(83, 'simposium', 24, 15, 'denah/rUU6KWk20C5oksJqQLe7BH44BiT8AyiFjC2oCLlO.gif', 1, '2023-05-03 06:26:02', '2023-05-03 06:26:02'),
+(84, 'CIC', 18, 10, 'denah/Ausoxf7r3TrDY5wgUynK5Y4ER1bOLAAsBAYxkb2J.gif', 1, '2023-05-03 06:26:56', '2023-05-03 06:28:16'),
+(85, 'CS wanita', 18, 4, 'denah/n96YiqyEIHpmt2V9QXnT2ZIVHpuxJS3Lfjsq7Rim.gif', 1, '2023-05-03 06:27:55', '2023-05-03 06:27:55'),
+(86, 'TIK', 18, 10, 'denah/XGAxZOvKYiLm2DVgSOpgahlr9auHqdRt2kW5kB2l.gif', 1, '2023-05-03 06:30:33', '2023-05-03 06:30:33'),
+(87, 'Smart Area 2.1', 24, 15, 'denah/JzFzuzKy9dxJZG5uAyoCTQ2KSbV0HYu8bZc4Bofi.gif', 1, '2023-05-03 06:32:10', '2023-05-03 06:32:10'),
+(88, 'Smart Area 2.2', 18, 10, 'denah/inUMZ8JfhMaHnA52Yc7tw1pijDwCnRk9PnSq2GwC.gif', 1, '2023-05-03 06:33:21', '2023-05-03 06:33:21'),
+(89, 'Smart Area 3.1', 24, 15, 'denah/mwWBW2ClJ3DqyIC1dklNbNMSTHiWeFEX9TI9J332.gif', 1, '2023-05-03 06:34:14', '2023-05-03 06:34:14'),
+(90, 'Smart Area 3.2', 24, 15, 'denah/dQm85dJoYro0AX2HRhWo4XSC9j3ByTxoFoz33iWg.gif', 1, '2023-05-03 06:35:04', '2023-05-03 06:35:04');
 
 -- --------------------------------------------------------
 
@@ -300,7 +308,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT untuk tabel `denahs`
 --
 ALTER TABLE `denahs`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=81;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=91;
 
 --
 -- AUTO_INCREMENT untuk tabel `failed_jobs`
