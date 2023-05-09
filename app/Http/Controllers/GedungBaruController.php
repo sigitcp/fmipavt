@@ -48,7 +48,7 @@ class GedungBaruController extends Controller
             'gedung_id' => 'required',
         ]);
         $validatedData['denah'] = $request->file('denah')->store('denah');
-        // return dd($validatedData);
+        
         Denah::create($validatedData);
         return redirect('/gedungbaru')->with('success','data berhasil ditambahkan');
     }
@@ -93,24 +93,17 @@ class GedungBaruController extends Controller
         ];
         
         $data = Denah::findOrFail($id);
-    
-        if ($request->input('nama') != $data->nama) {
-            // do something
-            $data->nama = $request->input('nama');
-        }
         $validatedData = $request->validate($rules);
-
-        if($request->file('denah')){
+    
+        if ($request->hasFile('denah')) {
             if($request->oldImage) {
                 Storage::delete($request->oldImage);
             }
             $validatedData['denah'] = $request->file('denah')->store('denah');
         }
-
-        Denah::find($id)->update($validatedData);
+    
+        $data->update($validatedData);
         return redirect('/gedungbaru')->with('success','data berhasil diupdate');
-
-
     }
 
     /**

@@ -8,16 +8,19 @@
 	<!--projectdescription-end-->
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<meta charset="utf-8">
-	<meta name="viewport"
-		content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width, shrink-to-fit=no">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width, shrink-to-fit=no">
 
 	<link rel="stylesheet" type="text/css" href="/gbrvirtualtour/css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="/gbrvirtualtour/styles.css">
-	<link href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" rel="stylesheet"
-		crossorigin="anonymous" />
+	<link href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" rel="stylesheet" crossorigin="anonymous" />
 
 	<!-- Insert this line above script imports  -->
-	<script>if (typeof module === 'object') { window.module = module; module = undefined; }</script>
+	<script>
+		if (typeof module === 'object') {
+			window.module = module;
+			module = undefined;
+		}
+	</script>
 
 	<script src="/gbrvirtualtour/imagedata.js"></script>
 	<script src="/gbrvirtualtour/jquery.js"></script>
@@ -25,7 +28,9 @@
 	<script src="/gbrvirtualtour/panolens.min.js"></script>
 
 	<!-- Insert this line after script imports -->
-	<script>if (window.module) module = window.module;</script>
+	<script>
+		if (window.module) module = window.module;
+	</script>
 
 	<style>
 		/* SCROLLBAR STYLING */
@@ -97,15 +102,13 @@
 <body>
 	<div id="wrapper">
 		<div class="nav sidebar-nav">
-			<button href="#menu-toggle" id="menu-toggle" class="btn btn-primary shadow-inset ml-8 mt-2"><i
-					class="fa fa-bars" style="font-size:20px !Important;" aria-hidden="true" aria-hidden="true"></i>
+			<button href="#menu-toggle" id="menu-toggle" class="btn btn-primary shadow-inset ml-8 mt-2"><i class="fa fa-bars" style="font-size:20px !Important;" aria-hidden="true" aria-hidden="true"></i>
 			</button>
 			<div id="sidebar-wrapper">
 
 				<ul class="sidebar-nav" style="margin-left:0;">
 					<li class="sidebar-brand">
-						<a class="navbar-brand text-gray" href=""><img
-								src="/gbrvirtualtour/imgs/Lambang_Universitas_Tanjungpura.png" width="Logo"> FMIPA 360</a>
+						<a class="navbar-brand text-gray" href=""><img src="/gbrvirtualtour/imgs/Lambang_Universitas_Tanjungpura.png" width="Logo"> FMIPA 360</a>
 					</li>
 
 					<table class="table table-borderless" id="dataTable" cellspacing="0">
@@ -116,162 +119,122 @@
 						</thead>
 						<tbody>
 							<tr>
-								<td><button type="button" id="lt1-1" class="btn btn-primary btn-block mb-2"
-										tabindex="0">R. CS wanita</button></td>
+								<td><button type="button" id="lt1-1" class="btn btn-primary btn-block mb-2" tabindex="0">R. CS wanita</button></td>
 							</tr>
 							<tr>
-								<td><button type="button" id="lt1-2" class="btn btn-primary btn-block mb-2"
-										tabindex="0">Smart area, WC</button></td>
+								<td><button type="button" id="lt1-2" class="btn btn-primary btn-block mb-2" tabindex="0">Smart area, WC</button></td>
 							</tr>
 							<tr>
-								<td><button type="button" id="lt1-3" class="btn btn-primary btn-block mb-2"
-										tabindex="0">H 1.2, H 1.1</button></td>
+								<td><button type="button" id="lt1-3" class="btn btn-primary btn-block mb-2" tabindex="0">H 1.2, H 1.1</button></td>
 							</tr>
 							<tr>
-								<td><button type="button" id="lt1-4" class="btn btn-primary btn-block mb-2"
-										tabindex="0">H1.4</button></td>
+								<td><button type="button" id="lt1-4" class="btn btn-primary btn-block mb-2" tabindex="0">H1.4</button></td>
 							</tr>
 							<tr>
-								<td><button type="button" id="lt1-5" class="btn btn-primary btn-block mb-2"
-										tabindex="0">Teller akademik</button></td>
+								<td><button type="button" id="lt1-5" class="btn btn-primary btn-block mb-2" tabindex="0">Teller akademik</button></td>
 							</tr>
 							<tr>
-								<td><button type="button" id="lt1-6" class="btn btn-primary btn-block mb-2"
-										tabindex="0">R. umum dan perlengkapan</button></td>
+								<td><button type="button" id="lt1-6" class="btn btn-primary btn-block mb-2" tabindex="0">R. umum dan perlengkapan</button></td>
 							</tr>
 							<tr>
-								<td><button type="button" id="lt1-7" class="btn btn-primary btn-block mb-2"
-										tabindex="0">R. kepegawaian</button></td>
+								<td><button type="button" id="lt1-7" class="btn btn-primary btn-block mb-2" tabindex="0">R. kepegawaian</button></td>
 							</tr>
 							<tr>
-								<td><button type="button" id="lt1-8" class="btn btn-primary btn-block mb-2"
-										tabindex="0">R. tamu</button></td>
+								<td><button type="button" id="lt1-8" class="btn btn-primary btn-block mb-2" tabindex="0">R. tamu</button></td>
 							</tr>
 							<tr>
-								<td><button type="button" id="lt1-9" class="btn btn-primary btn-block mb-2"
-										tabindex="0">R. baca</button></td>
+								<td><button type="button" id="lt1-9" class="btn btn-primary btn-block mb-2" tabindex="0">R. baca</button></td>
 							</tr>
 							<tr>
-								<td><button type="button" id="tugu" class="btn btn-primary btn-block mb-2"
-										tabindex="0">Tugu f. mipa untan</button></td>
+								<td><button type="button" id="tugu" class="btn btn-primary btn-block mb-2" tabindex="0">Tugu f. mipa untan</button></td>
 							</tr>
 
 
 
 							<tr>
-								<td><button type="button" id="lt2-1" class="btn btn-primary btn-block mb-2"
-										tabindex="0">R. TIK</button></td>
+								<td><button type="button" id="lt2-1" class="btn btn-primary btn-block mb-2" tabindex="0">R. TIK</button></td>
 							</tr>
 							<tr>
-								<td><button type="button" id="lt2-2" class="btn btn-primary btn-block mb-2"
-										tabindex="0">Smart area pria</button></td>
+								<td><button type="button" id="lt2-2" class="btn btn-primary btn-block mb-2" tabindex="0">Smart area pria</button></td>
 							</tr>
 							<tr>
-								<td><button type="button" id="lt2-3" class="btn btn-primary btn-block mb-2"
-										tabindex="0">H 2.2, H 2.4</button></td>
+								<td><button type="button" id="lt2-3" class="btn btn-primary btn-block mb-2" tabindex="0">H 2.2, H 2.4</button></td>
 							</tr>
 							<tr>
-								<td><button type="button" id="lt2-4" class="btn btn-primary btn-block mb-2"
-										tabindex="0">R. dosen kimia</button></td>
+								<td><button type="button" id="lt2-4" class="btn btn-primary btn-block mb-2" tabindex="0">R. dosen kimia</button></td>
 							</tr>
 							<tr>
-								<td><button type="button" id="lt2-5" class="btn btn-primary btn-block mb-2"
-										tabindex="0">R. dosen sistem informasi, H 2.3, H 2.6, H 2.8</button></td>
+								<td><button type="button" id="lt2-5" class="btn btn-primary btn-block mb-2" tabindex="0">R. dosen sistem informasi, H 2.3, H 2.6, H 2.8</button></td>
 							</tr>
 							<tr>
-								<td><button type="button" id="lt2-6.7" class="btn btn-primary btn-block mb-2"
-										tabindex="0">H 2.10, R. jurusan matematika</button></td>
+								<td><button type="button" id="lt2-6.7" class="btn btn-primary btn-block mb-2" tabindex="0">H 2.10, R. jurusan matematika</button></td>
 							</tr>
 							<tr>
-								<td><button type="button" id="lt2-8" class="btn btn-primary btn-block mb-2"
-										tabindex="0">R. Dra. Harlia, M.Si</button></td>
+								<td><button type="button" id="lt2-8" class="btn btn-primary btn-block mb-2" tabindex="0">R. Dra. Harlia, M.Si</button></td>
 							</tr>
 							<tr>
-								<td><button type="button" id="lt2-9" class="btn btn-primary btn-block mb-2"
-										tabindex="0">Mushola pria</button></td>
+								<td><button type="button" id="lt2-9" class="btn btn-primary btn-block mb-2" tabindex="0">Mushola pria</button></td>
 							</tr>
 							<tr>
-								<td><button type="button" id="lt2-10" class="btn btn-primary btn-block mb-2"
-										tabindex="0">R. keuangan</button></td>
+								<td><button type="button" id="lt2-10" class="btn btn-primary btn-block mb-2" tabindex="0">R. keuangan, R. siposium</button></td>
 							</tr>
 							<tr>
-								<td><button type="button" id="lt2-11" class="btn btn-primary btn-block mb-2"
-										tabindex="0">R. senat</button></td>
+								<td><button type="button" id="lt2-11" class="btn btn-primary btn-block mb-2" tabindex="0">R. senat</button></td>
 							</tr>
 							<tr>
-								<td><button type="button" id="lt2-12" class="btn btn-primary btn-block mb-2"
-										tabindex="0">R. dekan, R. dosen matematika, R. dosen ilmu kelautan</button></td>
+								<td><button type="button" id="lt2-12" class="btn btn-primary btn-block mb-2" tabindex="0">R. dekan, R. dosen matematika, R. dosen ilmu kelautan</button></td>
 							</tr>
 							<tr>
-								<td><button type="button" id="lt2-13" class="btn btn-primary btn-block mb-2"
-										tabindex="0">R. wakil dekan</button></td>
+								<td><button type="button" id="lt2-13" class="btn btn-primary btn-block mb-2" tabindex="0">R. wakil dekan</button></td>
 							</tr>
 							<tr>
-								<td><button type="button" id="lt2-14" class="btn btn-primary btn-block mb-2"
-										tabindex="0">R. Jurusan Fisika</button></td>
+								<td><button type="button" id="lt2-14" class="btn btn-primary btn-block mb-2" tabindex="0">R. Jurusan Fisika</button></td>
 							</tr>
 							<tr>
-								<td><button type="button" id="lt2-15" class="btn btn-primary btn-block mb-2"
-										tabindex="0">R. Prof. Dr. Thamrin Usman, DEA</button></td>
+								<td><button type="button" id="lt2-15" class="btn btn-primary btn-block mb-2" tabindex="0">R. Prof. Dr. Thamrin Usman, DEA</button></td>
 							</tr>
 
 
 							<tr>
-								<td><button type="button" id="lt3-1" class="btn btn-primary btn-block mb-2"
-										tabindex="0">R. CIC</button></td>
+								<td><button type="button" id="lt3-1" class="btn btn-primary btn-block mb-2" tabindex="0">R. CIC</button></td>
 							</tr>
 							<tr>
-								<td><button type="button" id="lt3-2" class="btn btn-primary btn-block mb-2"
-										tabindex="0">Smart area wanita</button></td>
+								<td><button type="button" id="lt3-2" class="btn btn-primary btn-block mb-2" tabindex="0">Smart area wanita</button></td>
 							</tr>
 							<tr>
-								<td><button type="button" id="lt3-3" class="btn btn-primary btn-block mb-2"
-										tabindex="0">H 3.1</button></td>
+								<td><button type="button" id="lt3-3" class="btn btn-primary btn-block mb-2" tabindex="0">H 3.1</button></td>
 							</tr>
 							<tr>
-								<td><button type="button" id="lt3-4" class="btn btn-primary btn-block mb-2"
-										tabindex="0">H 3.2, H 3.4</button></td>
+								<td><button type="button" id="lt3-4" class="btn btn-primary btn-block mb-2" tabindex="0">H 3.2, H 3.4</button></td>
 							</tr>
 							<tr>
-								<td><button type="button" id="lt3-5" class="btn btn-primary btn-block mb-2"
-										tabindex="0">H 3.1, H 3.3</button></td>
+								<td><button type="button" id="lt3-5" class="btn btn-primary btn-block mb-2" tabindex="0">H 3.1, H 3.3</button></td>
 							</tr>
 							<tr>
-								<td><button type="button" id="lt3-6" class="btn btn-primary btn-block mb-2"
-										tabindex="0">R. sidang, H 3.6</button></td>
+								<td><button type="button" id="lt3-6" class="btn btn-primary btn-block mb-2" tabindex="0">R. sidang, H 3.6</button></td>
 							</tr>
 							<tr>
-								<td><button type="button" id="lt3-7" class="btn btn-primary btn-block mb-2"
-										tabindex="0">R. laboratorium sisiem informasi, R. dosen statistik</button></td>
+								<td><button type="button" id="lt3-7" class="btn btn-primary btn-block mb-2" tabindex="0">R. laboratorium sisiem informasi, R. dosen statistik</button></td>
 							</tr>
 							<tr>
-								<td><button type="button" id="lt3-9" class="btn btn-primary btn-block mb-2"
-										tabindex="0">Mushola wanita</button></td>
+								<td><button type="button" id="lt3-9" class="btn btn-primary btn-block mb-2" tabindex="0">Mushola wanita</button></td>
 							</tr>
 							<tr>
-								<td><button type="button" id="lt3-10" class="btn btn-primary btn-block mb-2"
-										tabindex="0">H 3.7</button></td>
+								<td><button type="button" id="lt3-10" class="btn btn-primary btn-block mb-2" tabindex="0">H 3.7</button></td>
 							</tr>
 							<tr>
-								<td><button type="button" id="lt3-11" class="btn btn-primary btn-block mb-2"
-										tabindex="0">R. laboratorium pemetaan dan pemodelan ilmu kelauan</button></td>
+								<td><button type="button" id="lt3-11" class="btn btn-primary btn-block mb-2" tabindex="0">R. laboratorium pemetaan dan pemodelan ilmu kelauan</button></td>
 							</tr>
 							<tr>
-								<td><button type="button" id="lt3-12" class="btn btn-primary btn-block mb-2"
-										tabindex="0">R. laboratorium komputasi fisika, H 3.10</button></td>
+								<td><button type="button" id="lt3-12" class="btn btn-primary btn-block mb-2" tabindex="0">R. laboratorium komputasi fisika, H 3.10</button></td>
 							</tr>
 							<tr>
-								<td><button type="button" id="lt3-13" class="btn btn-primary btn-block mb-2"
-										tabindex="0">R. kontrol, R. komputer B</button></td>
+								<td><button type="button" id="lt3-13" class="btn btn-primary btn-block mb-2" tabindex="0">R. kontrol, R. komputer B</button></td>
 							</tr>
 							<tr>
-								<td><button type="button" id="lt3-14" class="btn btn-primary btn-block mb-2"
-										tabindex="0">R. komputer A</button></td>
+								<td><button type="button" id="lt3-14" class="btn btn-primary btn-block mb-2" tabindex="0">R. komputer A</button></td>
 							</tr>
-							<tr>
-								<td><button type="button" id="lt3-15" class="btn btn-primary btn-block mb-2"
-										tabindex="0">H 3.9</button></td>
-							</tr>
+							
 						</tbody>
 					</table>
 
@@ -279,14 +242,13 @@
 			</div>
 		</div>
 		<script>
-			$("#menu-toggle").click(function (e) {
+			$("#menu-toggle").click(function(e) {
 				e.preventDefault();
 				$("#wrapper").toggleClass("toggled");
 			});
 		</script>
 		<script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js" crossorigin="anonymous"></script>
-		<script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js"
-			crossorigin="anonymous"></script>
+		<script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js" crossorigin="anonymous"></script>
 		<script src="/gbrvirtualtour/datatable.js"></script>
 	</div>
 </body>
@@ -350,195 +312,108 @@
 	<div class='customhotspot' id='tuguhight'></div>
 	<div class='customhotspot' id='tanggakiriA'></div>
 	<div class='customhotspot' id='aa'>
-		<div onclick='chclickinfospotaa2();' id='infospotaa2'
-			style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png'
-				style='width: 64px; height: 64px;'></div>
+		<div onclick='chclickinfospotaa2();' id='infospotaa2' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png' style='width: 64px; height: 64px;'></div>
 	</div>
 	<div class='customhotspot' id='bb'>
-		<div onclick='chclickinfospotbb2();' id='infospotbb2'
-			style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png'
-				style='width: 64px; height: 64px;'></div>
-		<div onclick='chclickinfospotbb3();' id='infospotbb3'
-			style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png'
-				style='width: 64px; height: 64px;'></div>
+		<div onclick='chclickinfospotbb2();' id='infospotbb2' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png' style='width: 64px; height: 64px;'></div>
+		<div onclick='chclickinfospotbb3();' id='infospotbb3' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png' style='width: 64px; height: 64px;'></div>
 	</div>
 	<div class='customhotspot' id='cc'>
-		<div onclick='chclickinfospotcc2();' id='infospotcc2'
-			style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png'
-				style='width: 64px; height: 64px;'></div>
-		<div onclick='chclickinfospotcc3();' id='infospotcc3'
-			style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png'
-				style='width: 64px; height: 64px;'></div>
+		<div onclick='chclickinfospotcc2();' id='infospotcc2' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png' style='width: 64px; height: 64px;'></div>
+		<div onclick='chclickinfospotcc3();' id='infospotcc3' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png' style='width: 64px; height: 64px;'></div>
 	</div>
 	<div class='customhotspot' id='dd'>
-		<div onclick='chclickinfospotdd2();' id='infospotdd2'
-			style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png'
-				style='width: 64px; height: 64px;'></div>
+		<div onclick='chclickinfospotdd2();' id='infospotdd2' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png' style='width: 64px; height: 64px;'></div>
 	</div>
 	<div class='customhotspot' id='ee'>
-		<div onclick='chclickinfospotee2();' id='infospotee2'
-			style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png'
-				style='width: 64px; height: 64px;'></div>
-		<div onclick='chclickinfospotee3();' id='infospotee3'
-			style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png'
-				style='width: 64px; height: 64px;'></div>
-		<div onclick='chclickinfospotee4();' id='infospotee4'
-			style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png'
-				style='width: 64px; height: 64px;'></div>
-		<div onclick='chclickinfospotee5();' id='infospotee5'
-			style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png'
-				style='width: 64px; height: 64px;'></div>
+		<div onclick='chclickinfospotee2();' id='infospotee2' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png' style='width: 64px; height: 64px;'></div>
+		<div onclick='chclickinfospotee3();' id='infospotee3' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png' style='width: 64px; height: 64px;'></div>
+		<div onclick='chclickinfospotee4();' id='infospotee4' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png' style='width: 64px; height: 64px;'></div>
+		<div onclick='chclickinfospotee5();' id='infospotee5' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png' style='width: 64px; height: 64px;'></div>
 	</div>
 	<div class='customhotspot' id='fg'>
-		<div onclick='chclickinfospotfg2();' id='infospotfg2'
-			style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png'
-				style='width: 64px; height: 64px;'></div>
-		<div onclick='chclickinfospotfg3();' id='infospotfg3'
-			style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png'
-				style='width: 64px; height: 64px;'></div>
+		<div onclick='chclickinfospotfg2();' id='infospotfg2' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png' style='width: 64px; height: 64px;'></div>
+		<div onclick='chclickinfospotfg3();' id='infospotfg3' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png' style='width: 64px; height: 64px;'></div>
 	</div>
 	<div class='customhotspot' id='hh'>
-		<div onclick='chclickinfospothh2();' id='infospothh2'
-			style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png'
-				style='width: 64px; height: 64px;'></div>
+		<div onclick='chclickinfospothh2();' id='infospothh2' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png' style='width: 64px; height: 64px;'></div>
 	</div>
 	<div class='customhotspot' id='ii'>
-		<div onclick='chclickinfospotii2();' id='infospotii2'
-			style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png'
-				style='width: 64px; height: 64px;'></div>
-		<div onclick='chclickinfospotii3();' id='infospotii3'
-			style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png'
-				style='width: 64px; height: 64px;'></div>
+		<div onclick='chclickinfospotii2();' id='infospotii2' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png' style='width: 64px; height: 64px;'></div>
+		<div onclick='chclickinfospotii3();' id='infospotii3' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png' style='width: 64px; height: 64px;'></div>
 	</div>
 	<div class='customhotspot' id='jj'>
-		<div onclick='chclickinfospotjj2();' id='infospotjj2'
-			style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png'
-				style='width: 64px; height: 64px;'></div>
+		<div onclick='chclickinfospotjj2();' id='infospotjj2' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png' style='width: 64px; height: 64px;'></div>
+		<div onclick='chclickinfospotjj4();' id='infospotjj4' style='position: fixed; top: 0; left: 0; cursor: pointer'><img src='/gbrvirtualtour/customhotspots/infospot.png' style='width: 64px; height: 64px' />
+		</div>
 	</div>
 	<div class='customhotspot' id='kk'>
-		<div onclick='chclickinfospotkk2();' id='infospotkk2'
-			style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png'
-				style='width: 64px; height: 64px;'></div>
+		<div onclick='chclickinfospotkk2();' id='infospotkk2' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png' style='width: 64px; height: 64px;'></div>
 	</div>
 	<div class='customhotspot' id='ll'>
-		<div onclick='chclickinfospotll2();' id='infospotll2'
-			style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png'
-				style='width: 64px; height: 64px;'></div>
-		<div onclick='chclickinfospotll3();' id='infospotll3'
-			style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png'
-				style='width: 64px; height: 64px;'></div>
-		<div onclick='chclickinfospotll4();' id='infospotll4'
-			style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png'
-				style='width: 64px; height: 64px;'></div>
+		<div onclick='chclickinfospotll2();' id='infospotll2' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png' style='width: 64px; height: 64px;'></div>
+		<div onclick='chclickinfospotll3();' id='infospotll3' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png' style='width: 64px; height: 64px;'></div>
+		<div onclick='chclickinfospotll4();' id='infospotll4' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png' style='width: 64px; height: 64px;'></div>
 	</div>
 	<div class='customhotspot' id='mm'>
-		<div onclick='chclickinfospotmm2();' id='infospotmm2'
-			style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png'
-				style='width: 64px; height: 64px;'></div>
+		<div onclick='chclickinfospotmm2();' id='infospotmm2' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png' style='width: 64px; height: 64px;'></div>
 	</div>
 	<div class='customhotspot' id='nn'>
-		<div onclick='chclickinfospotnn2();' id='infospotnn2'
-			style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png'
-				style='width: 64px; height: 64px;'></div>
+		<div onclick='chclickinfospotnn2();' id='infospotnn2' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png' style='width: 64px; height: 64px;'></div>
 	</div>
 	<div class='customhotspot' id='oo'>
-		<div onclick='chclickinfospotoo1();' id='infospotoo1'
-			style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png'
-				style='width: 64px; height: 64px;'></div>
+		<div onclick='chclickinfospotoo1();' id='infospotoo1' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png' style='width: 64px; height: 64px;'></div>
 	</div>
 	<div class='customhotspot' id='tanggatengahA'></div>
 	<div class='customhotspot' id='aaa'>
-		<div onclick='chclickinfospotaaa2();' id='infospotaaa2'
-			style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png'
-				style='width: 64px; height: 64px;'></div>
+		<div onclick='chclickinfospotaaa2();' id='infospotaaa2' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png' style='width: 64px; height: 64px;'></div>
 	</div>
 	<div class='customhotspot' id='bbb'>
-		<div onclick='chclickinfospotbbb2();' id='infospotbbb2'
-			style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png'
-				style='width: 64px; height: 64px;'></div>
-		<div onclick='chclickinfospotbbb3();' id='infospotbbb3'
-			style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png'
-				style='width: 64px; height: 64px;'></div>
+		<div onclick='chclickinfospotbbb2();' id='infospotbbb2' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png' style='width: 64px; height: 64px;'></div>
+		<div onclick='chclickinfospotbbb3();' id='infospotbbb3' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png' style='width: 64px; height: 64px;'></div>
 	</div>
 	<div class='customhotspot' id='ccc'>
-		<div onclick='chclickinfospotccc2();' id='infospotccc2'
-			style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png'
-				style='width: 64px; height: 64px;'></div>
+		<div onclick='chclickinfospotccc2();' id='infospotccc2' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png' style='width: 64px; height: 64px;'></div>
 	</div>
 	<div class='customhotspot' id='ddd'>
-		<div onclick='chclickinfospotddd2();' id='infospotddd2'
-			style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png'
-				style='width: 64px; height: 64px;'></div>
-		<div onclick='chclickinfospotddd3();' id='infospotddd3'
-			style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png'
-				style='width: 64px; height: 64px;'></div>
+		<div onclick='chclickinfospotddd2();' id='infospotddd2' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png' style='width: 64px; height: 64px;'></div>
+		<div onclick='chclickinfospotddd3();' id='infospotddd3' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png' style='width: 64px; height: 64px;'></div>
 	</div>
 	<div class='customhotspot' id='eee'>
-		<div onclick='chclickinfospoteee2();' id='infospoteee2'
-			style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png'
-				style='width: 64px; height: 64px;'></div>
+		<div onclick='chclickinfospoteee2();' id='infospoteee2' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png' style='width: 64px; height: 64px;'></div>
 	</div>
 	<div class='customhotspot' id='fff'>
-		<div onclick='chclickinfospotfff2();' id='infospotfff2'
-			style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png'
-				style='width: 64px; height: 64px;'></div>
-		<div onclick='chclickinfospotfff3();' id='infospotfff3'
-			style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png'
-				style='width: 64px; height: 64px;'></div>
+		<div onclick='chclickinfospotfff2();' id='infospotfff2' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png' style='width: 64px; height: 64px;'></div>
+		<div onclick='chclickinfospotfff3();' id='infospotfff3' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png' style='width: 64px; height: 64px;'></div>
 	</div>
 	<div class='customhotspot' id='ggg'>
-		<div onclick='chclickinfospotggg2();' id='infospotggg2'
-			style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png'
-				style='width: 64px; height: 64px;'></div>
-		<div onclick='chclickinfospotggg3();' id='infospotggg3'
-			style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png'
-				style='width: 64px; height: 64px;'></div>
+		<div onclick='chclickinfospotggg2();' id='infospotggg2' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png' style='width: 64px; height: 64px;'></div>
+		<div onclick='chclickinfospotggg3();' id='infospotggg3' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png' style='width: 64px; height: 64px;'></div>
 	</div>
 	<div class='customhotspot' id='hhh'></div>
 	<div class='customhotspot' id='iii'>
-		<div onclick='chclickinfospotiii2();' id='infospotiii2'
-			style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png'
-				style='width: 64px; height: 64px;'></div>
-		<div onclick='chclickinfospotiii3();' id='infospotiii3'
-			style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png'
-				style='width: 64px; height: 64px;'></div>
+		<div onclick='chclickinfospotiii2();' id='infospotiii2' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png' style='width: 64px; height: 64px;'></div>
+		<div onclick='chclickinfospotiii3();' id='infospotiii3' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png' style='width: 64px; height: 64px;'></div>
 	</div>
 	<div class='customhotspot' id='jjj'>
-		<div onclick='chclickinfospotjjj2();' id='infospotjjj2'
-			style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png'
-				style='width: 64px; height: 64px;'></div>
+		<div onclick='chclickinfospotjjj2();' id='infospotjjj2' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png' style='width: 64px; height: 64px;'></div>
+		
 	</div>
 	<div class='customhotspot' id='kkk'>
-		<div onclick='chclickinfospotkkk2();' id='infospotkkk2'
-			style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png'
-				style='width: 64px; height: 64px;'></div>
+		<div onclick='chclickinfospotkkk2();' id='infospotkkk2' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png' style='width: 64px; height: 64px;'></div>
 	</div>
 	<div class='customhotspot' id='lll'>
-		<div onclick='chclickinfospotlll2();' id='infospotlll2'
-			style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png'
-				style='width: 64px; height: 64px;'></div>
-		<div onclick='chclickinfospotlll3();' id='infospotlll3'
-			style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png'
-				style='width: 64px; height: 64px;'></div>
+		<div onclick='chclickinfospotlll2();' id='infospotlll2' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png' style='width: 64px; height: 64px;'></div>
+		<div onclick='chclickinfospotlll3();' id='infospotlll3' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png' style='width: 64px; height: 64px;'></div>
 	</div>
 	<div class='customhotspot' id='mmm'>
-		<div onclick='chclickinfospotmmm2();' id='infospotmmm2'
-			style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png'
-				style='width: 64px; height: 64px;'></div>
-		<div onclick='chclickinfospotmmm3();' id='infospotmmm3'
-			style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png'
-				style='width: 64px; height: 64px;'></div>
+		<div onclick='chclickinfospotmmm2();' id='infospotmmm2' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png' style='width: 64px; height: 64px;'></div>
+		<div onclick='chclickinfospotmmm3();' id='infospotmmm3' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png' style='width: 64px; height: 64px;'></div>
 	</div>
 	<div class='customhotspot' id='nnn'>
-		<div onclick='chclickinfospotnnn2();' id='infospotnnn2'
-			style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png'
-				style='width: 64px; height: 64px;'></div>
+		<div onclick='chclickinfospotnnn2();' id='infospotnnn2' style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png' style='width: 64px; height: 64px;'></div>
 	</div>
-	<div class='customhotspot' id='ooo'>
-		<div onclick='chclickinfospotooo1();' id='infospotooo1'
-			style='position: fixed; top: 0; left: 0; cursor: pointer;'><img src='/gbrvirtualtour/customhotspots/infospot.png'
-				style='width: 64px; height: 64px;'></div>
-	</div>
+	
 	<div class='customhotspot' id='tanggakiriB'></div>
 	<div class='customhotspot' id='tanggatengahB'></div>
 	<!--customhtml-end-->
@@ -559,42 +434,44 @@
 
 
 		<div id="loading" class="fullwrapper" style="display: table; width: 100%; height: 100%;">
-			<div
-				style="display: table-cell; vertical-align: middle; text-align: center; color: black; font-size: 30px; padding: 50px;">
+			<div style="display: table-cell; vertical-align: middle; text-align: center; color: black; font-size: 30px; padding: 50px;">
 				<!--loadingtext-->Loading...
 				<!--loadingtext-end-->
 			</div>
 		</div>
 	</div>
 	<script>
-
 		var container = document.querySelector('#container');
 		/*panolens*/
 
-		var viewer = new PANOLENS.Viewer({ container: container, controlBar: false, output: 'console', autoHideInfospot: false, });
+		var viewer = new PANOLENS.Viewer({
+			container: container,
+			controlBar: false,
+			output: 'console',
+			autoHideInfospot: false,
+		});
 
 		/*panolens-end*/
 
-		viewer.addUpdateCallback(function () { });
+		viewer.addUpdateCallback(function() {});
 
 		/*panoramas*/
 
 		var gbkananhight = new PANOLENS.ImagePanorama("/gbrvirtualtour/panoramas/gbkananhight.jpg");
-		gbkananhight.addEventListener('progress', function (e) {
+		gbkananhight.addEventListener('progress', function(e) {
 			$("#loading").show();
 		});
-		gbkananhight.addEventListener('load', function (e) {
+		gbkananhight.addEventListener('load', function(e) {
 			$("#loading").fadeOut();
 		});
-		gbkananhight.addEventListener('click', function (e) {
-		});
+		gbkananhight.addEventListener('click', function(e) {});
 
 
 		var infospotgbkananhight0 = new PANOLENS.Infospot(512, hotspotIcons[6].data, true);
 		infospotgbkananhight0.position.set(4964.27, -493.79, -158.36);
 		gbkananhight.add(infospotgbkananhight0);
 
-		infospotgbkananhight0.addEventListener('click', function () {
+		infospotgbkananhight0.addEventListener('click', function() {
 
 			ChangePanorama('h');
 
@@ -603,21 +480,20 @@
 		viewer.add(gbkananhight);
 
 		var h = new PANOLENS.ImagePanorama("/gbrvirtualtour/panoramas/h.jpg");
-		h.addEventListener('progress', function (e) {
+		h.addEventListener('progress', function(e) {
 			$("#loading").show();
 		});
-		h.addEventListener('load', function (e) {
+		h.addEventListener('load', function(e) {
 			$("#loading").fadeOut();
 		});
-		h.addEventListener('click', function (e) {
-		});
+		h.addEventListener('click', function(e) {});
 
 
 		var infospoth0 = new PANOLENS.Infospot(512, hotspotIcons[6].data, true);
 		infospoth0.position.set(4389.15, -2357.05, 326.33);
 		h.add(infospoth0);
 
-		infospoth0.addEventListener('click', function () {
+		infospoth0.addEventListener('click', function() {
 
 			ChangePanorama('gbkananhight');
 
@@ -627,7 +503,7 @@
 		infospoth1.position.set(-419.64, -2631.20, 4228.71);
 		h.add(infospoth1);
 
-		infospoth1.addEventListener('click', function () {
+		infospoth1.addEventListener('click', function() {
 
 			ChangePanorama('i');
 
@@ -637,7 +513,7 @@
 		infospoth2.position.set(178.39, -2596.08, -4263.04);
 		h.add(infospoth2);
 
-		infospoth2.addEventListener('click', function () {
+		infospoth2.addEventListener('click', function() {
 
 			ChangePanorama('g');
 
@@ -647,7 +523,7 @@
 		infospoth3.position.set(-54.59, -4997.83, 7.46);
 		h.add(infospoth3);
 
-		infospoth3.addEventListener('click', function () {
+		infospoth3.addEventListener('click', function() {
 
 			showMedia(1, '/gbrvirtualtour/images/lt1.8.png');
 
@@ -658,30 +534,29 @@
 		infospoth4.visible = false;
 		h.add(infospoth4);
 
-		infospoth4.addEventListener('click', function () {
+		infospoth4.addEventListener('click', function() {
 
-			showMedia(1, '/gbrvirtualtour/images/tamu.jpg');
+			showMedia(1, '/gbrvirtualtour/images/tamu.gif');
 
 		});
 
 		viewer.add(h);
 
 		var i = new PANOLENS.ImagePanorama("/gbrvirtualtour/panoramas/i.jpg");
-		i.addEventListener('progress', function (e) {
+		i.addEventListener('progress', function(e) {
 			$("#loading").show();
 		});
-		i.addEventListener('load', function (e) {
+		i.addEventListener('load', function(e) {
 			$("#loading").fadeOut();
 		});
-		i.addEventListener('click', function (e) {
-		});
+		i.addEventListener('click', function(e) {});
 
 
 		var infospoti0 = new PANOLENS.Infospot(512, hotspotIcons[6].data, true);
 		infospoti0.position.set(-264.72, -1637.72, 4707.23);
 		i.add(infospoti0);
 
-		infospoti0.addEventListener('click', function () {
+		infospoti0.addEventListener('click', function() {
 
 			ChangePanorama('h');
 
@@ -692,9 +567,9 @@
 		infospoti1.visible = false;
 		i.add(infospoti1);
 
-		infospoti1.addEventListener('click', function () {
+		infospoti1.addEventListener('click', function() {
 
-			showMedia(1, '/gbrvirtualtour/images/baca.jpg');
+			showMedia(1, '/gbrvirtualtour/images/baca.gif');
 
 		});
 
@@ -702,7 +577,7 @@
 		infospoti2.position.set(-8.91, -4999.40, -12.42);
 		i.add(infospoti2);
 
-		infospoti2.addEventListener('click', function () {
+		infospoti2.addEventListener('click', function() {
 
 			showMedia(1, '/gbrvirtualtour/images/lt1.9.png');
 
@@ -711,21 +586,20 @@
 		viewer.add(i);
 
 		var g = new PANOLENS.ImagePanorama("/gbrvirtualtour/panoramas/g.jpg");
-		g.addEventListener('progress', function (e) {
+		g.addEventListener('progress', function(e) {
 			$("#loading").show();
 		});
-		g.addEventListener('load', function (e) {
+		g.addEventListener('load', function(e) {
 			$("#loading").fadeOut();
 		});
-		g.addEventListener('click', function (e) {
-		});
+		g.addEventListener('click', function(e) {});
 
 
 		var infospotg0 = new PANOLENS.Infospot(512, hotspotIcons[6].data, true);
 		infospotg0.position.set(-4561.68, -2028.07, 92.82);
 		g.add(infospotg0);
 
-		infospotg0.addEventListener('click', function () {
+		infospotg0.addEventListener('click', function() {
 
 			ChangePanorama('h');
 
@@ -735,7 +609,7 @@
 		infospotg1.position.set(3694.48, -3359.33, 75.08);
 		g.add(infospotg1);
 
-		infospotg1.addEventListener('click', function () {
+		infospotg1.addEventListener('click', function() {
 
 			ChangePanorama('f');
 
@@ -746,9 +620,9 @@
 		infospotg2.visible = false;
 		g.add(infospotg2);
 
-		infospotg2.addEventListener('click', function () {
+		infospotg2.addEventListener('click', function() {
 
-			showMedia(1, '/gbrvirtualtour/images/kepegawaian.jpg');
+			showMedia(1, '/gbrvirtualtour/images/kepegawaian.gif');
 
 		});
 
@@ -756,7 +630,7 @@
 		infospotg3.position.set(25.14, -4998.94, 9.78);
 		g.add(infospotg3);
 
-		infospotg3.addEventListener('click', function () {
+		infospotg3.addEventListener('click', function() {
 
 			showMedia(1, '/gbrvirtualtour/images/lt1.7.png');
 
@@ -766,7 +640,7 @@
 		infospotg4.position.set(-572.47, -949.66, 4868.79);
 		g.add(infospotg4);
 
-		infospotg4.addEventListener('click', function () {
+		infospotg4.addEventListener('click', function() {
 
 			ChangePanorama('tanggatengahA');
 
@@ -775,21 +649,20 @@
 		viewer.add(g);
 
 		var f = new PANOLENS.ImagePanorama("/gbrvirtualtour/panoramas/f.jpg");
-		f.addEventListener('progress', function (e) {
+		f.addEventListener('progress', function(e) {
 			$("#loading").show();
 		});
-		f.addEventListener('load', function (e) {
+		f.addEventListener('load', function(e) {
 			$("#loading").fadeOut();
 		});
-		f.addEventListener('click', function (e) {
-		});
+		f.addEventListener('click', function(e) {});
 
 
 		var infospotf0 = new PANOLENS.Infospot(512, hotspotIcons[6].data, true);
 		infospotf0.position.set(-59.51, -2600.37, 4266.87);
 		f.add(infospotf0);
 
-		infospotf0.addEventListener('click', function () {
+		infospotf0.addEventListener('click', function() {
 
 			ChangePanorama('g');
 
@@ -799,7 +672,7 @@
 		infospotf1.position.set(-143.38, -2287.80, -4437.53);
 		f.add(infospotf1);
 
-		infospotf1.addEventListener('click', function () {
+		infospotf1.addEventListener('click', function() {
 
 			ChangePanorama('e');
 
@@ -810,9 +683,9 @@
 		infospotf2.visible = false;
 		f.add(infospotf2);
 
-		infospotf2.addEventListener('click', function () {
+		infospotf2.addEventListener('click', function() {
 
-			showMedia(1, '/gbrvirtualtour/images/umper.jpg');
+			showMedia(1, '/gbrvirtualtour/images/umper.gif');
 
 		});
 
@@ -821,9 +694,9 @@
 		infospotf3.visible = false;
 		f.add(infospotf3);
 
-		infospotf3.addEventListener('click', function () {
+		infospotf3.addEventListener('click', function() {
 
-			showMedia(1, '/gbrvirtualtour/images/akademik.jpg');
+			showMedia(1, '/gbrvirtualtour/images/akademik.gif');
 
 		});
 
@@ -831,7 +704,7 @@
 		infospotf4.position.set(-14.05, -4996.15, -96.79);
 		f.add(infospotf4);
 
-		infospotf4.addEventListener('click', function () {
+		infospotf4.addEventListener('click', function() {
 
 			showMedia(1, '/gbrvirtualtour/images/lt1.6.png');
 
@@ -840,21 +713,20 @@
 		viewer.add(f);
 
 		var e = new PANOLENS.ImagePanorama("/gbrvirtualtour/panoramas/e.jpg");
-		e.addEventListener('progress', function (e) {
+		e.addEventListener('progress', function(e) {
 			$("#loading").show();
 		});
-		e.addEventListener('load', function (e) {
+		e.addEventListener('load', function(e) {
 			$("#loading").fadeOut();
 		});
-		e.addEventListener('click', function (e) {
-		});
+		e.addEventListener('click', function(e) {});
 
 
 		var infospote0 = new PANOLENS.Infospot(512, hotspotIcons[6].data, true);
 		infospote0.position.set(-188.72, -2395.15, 4375.03);
 		e.add(infospote0);
 
-		infospote0.addEventListener('click', function () {
+		infospote0.addEventListener('click', function() {
 
 			ChangePanorama('f');
 
@@ -864,7 +736,7 @@
 		infospote1.position.set(362.27, -2560.18, -4273.51);
 		e.add(infospote1);
 
-		infospote1.addEventListener('click', function () {
+		infospote1.addEventListener('click', function() {
 
 			ChangePanorama('d');
 
@@ -875,7 +747,7 @@
 		infospote2.visible = false;
 		e.add(infospote2);
 
-		infospote2.addEventListener('click', function () {
+		infospote2.addEventListener('click', function() {
 
 			showMedia(1, '/gbrvirtualtour/images/teller.jpg');
 
@@ -885,7 +757,7 @@
 		infospote3.position.set(-8.47, -4999.40, 12.73);
 		e.add(infospote3);
 
-		infospote3.addEventListener('click', function () {
+		infospote3.addEventListener('click', function() {
 
 			showMedia(1, '/gbrvirtualtour/images/lt1.5.png');
 
@@ -894,21 +766,20 @@
 		viewer.add(e);
 
 		var d = new PANOLENS.ImagePanorama("/gbrvirtualtour/panoramas/d.jpg");
-		d.addEventListener('progress', function (e) {
+		d.addEventListener('progress', function(e) {
 			$("#loading").show();
 		});
-		d.addEventListener('load', function (e) {
+		d.addEventListener('load', function(e) {
 			$("#loading").fadeOut();
 		});
-		d.addEventListener('click', function (e) {
-		});
+		d.addEventListener('click', function(e) {});
 
 
 		var infospotd0 = new PANOLENS.Infospot(512, hotspotIcons[6].data, true);
 		infospotd0.position.set(-30.70, -2746.77, 4171.87);
 		d.add(infospotd0);
 
-		infospotd0.addEventListener('click', function () {
+		infospotd0.addEventListener('click', function() {
 
 			ChangePanorama('e');
 
@@ -918,7 +789,7 @@
 		infospotd1.position.set(297.83, -2200.23, -4471.57);
 		d.add(infospotd1);
 
-		infospotd1.addEventListener('click', function () {
+		infospotd1.addEventListener('click', function() {
 
 			ChangePanorama('c');
 
@@ -929,9 +800,9 @@
 		infospotd2.visible = false;
 		d.add(infospotd2);
 
-		infospotd2.addEventListener('click', function () {
+		infospotd2.addEventListener('click', function() {
 
-			showMedia(1, '/gbrvirtualtour/images/h14.jpg');
+			showMedia(1, '/gbrvirtualtour/images/h14.gif');
 
 		});
 
@@ -939,7 +810,7 @@
 		infospotd3.position.set(-29.02, -4998.70, 15.93);
 		d.add(infospotd3);
 
-		infospotd3.addEventListener('click', function () {
+		infospotd3.addEventListener('click', function() {
 
 			showMedia(1, '/gbrvirtualtour/images/lt1.4.png');
 
@@ -948,21 +819,20 @@
 		viewer.add(d);
 
 		var c = new PANOLENS.ImagePanorama("/gbrvirtualtour/panoramas/c.jpg");
-		c.addEventListener('progress', function (e) {
+		c.addEventListener('progress', function(e) {
 			$("#loading").show();
 		});
-		c.addEventListener('load', function (e) {
+		c.addEventListener('load', function(e) {
 			$("#loading").fadeOut();
 		});
-		c.addEventListener('click', function (e) {
-		});
+		c.addEventListener('click', function(e) {});
 
 
 		var infospotc0 = new PANOLENS.Infospot(512, hotspotIcons[6].data, true);
 		infospotc0.position.set(-322.88, -2606.51, 4249.63);
 		c.add(infospotc0);
 
-		infospotc0.addEventListener('click', function () {
+		infospotc0.addEventListener('click', function() {
 
 			ChangePanorama('d');
 
@@ -972,7 +842,7 @@
 		infospotc1.position.set(497.35, -2172.18, -4471.18);
 		c.add(infospotc1);
 
-		infospotc1.addEventListener('click', function () {
+		infospotc1.addEventListener('click', function() {
 
 			ChangePanorama('b');
 
@@ -983,9 +853,9 @@
 		infospotc2.visible = false;
 		c.add(infospotc2);
 
-		infospotc2.addEventListener('click', function () {
+		infospotc2.addEventListener('click', function() {
 
-			showMedia(1, '/gbrvirtualtour/images/h12.jpg');
+			showMedia(1, '/gbrvirtualtour/images/h12.gif');
 
 		});
 
@@ -994,9 +864,9 @@
 		infospotc3.visible = false;
 		c.add(infospotc3);
 
-		infospotc3.addEventListener('click', function () {
+		infospotc3.addEventListener('click', function() {
 
-			showMedia(1, '/gbrvirtualtour/images/h11.jpg');
+			showMedia(1, '/gbrvirtualtour/images/h11.gif');
 
 		});
 
@@ -1004,7 +874,7 @@
 		infospotc4.position.set(-8.40, -4999.65, 2.65);
 		c.add(infospotc4);
 
-		infospotc4.addEventListener('click', function () {
+		infospotc4.addEventListener('click', function() {
 
 			showMedia(1, '/gbrvirtualtour/images/lt1.3.png');
 
@@ -1013,21 +883,20 @@
 		viewer.add(c);
 
 		var b = new PANOLENS.ImagePanorama("/gbrvirtualtour/panoramas/b.jpg");
-		b.addEventListener('progress', function (e) {
+		b.addEventListener('progress', function(e) {
 			$("#loading").show();
 		});
-		b.addEventListener('load', function (e) {
+		b.addEventListener('load', function(e) {
 			$("#loading").fadeOut();
 		});
-		b.addEventListener('click', function (e) {
-		});
+		b.addEventListener('click', function(e) {});
 
 
 		var infospotb0 = new PANOLENS.Infospot(512, hotspotIcons[6].data, true);
 		infospotb0.position.set(-4594.55, -1924.56, -376.12);
 		b.add(infospotb0);
 
-		infospotb0.addEventListener('click', function () {
+		infospotb0.addEventListener('click', function() {
 
 			ChangePanorama('c');
 
@@ -1037,7 +906,7 @@
 		infospotb1.position.set(-5.19, -2964.08, 4024.98);
 		b.add(infospotb1);
 
-		infospotb1.addEventListener('click', function () {
+		infospotb1.addEventListener('click', function() {
 
 			ChangePanorama('a');
 
@@ -1048,7 +917,7 @@
 		infospotb2.visible = false;
 		b.add(infospotb2);
 
-		infospotb2.addEventListener('click', function () {
+		infospotb2.addEventListener('click', function() {
 
 			showMedia(1, '/gbrvirtualtour/images/wc.jpg');
 
@@ -1058,7 +927,7 @@
 		infospotb3.position.set(-82.82, -4996.74, 0.56);
 		b.add(infospotb3);
 
-		infospotb3.addEventListener('click', function () {
+		infospotb3.addEventListener('click', function() {
 
 			showMedia(1, '/gbrvirtualtour/images/lt1.2.png');
 
@@ -1067,21 +936,20 @@
 		viewer.add(b);
 
 		var a = new PANOLENS.ImagePanorama("/gbrvirtualtour/panoramas/a.jpg");
-		a.addEventListener('progress', function (e) {
+		a.addEventListener('progress', function(e) {
 			$("#loading").show();
 		});
-		a.addEventListener('load', function (e) {
+		a.addEventListener('load', function(e) {
 			$("#loading").fadeOut();
 		});
-		a.addEventListener('click', function (e) {
-		});
+		a.addEventListener('click', function(e) {});
 
 
 		var infospota0 = new PANOLENS.Infospot(512, hotspotIcons[6].data, true);
 		infospota0.position.set(265.95, -2495.29, -4314.90);
 		a.add(infospota0);
 
-		infospota0.addEventListener('click', function () {
+		infospota0.addEventListener('click', function() {
 
 			ChangePanorama('b');
 
@@ -1091,7 +959,7 @@
 		infospota1.position.set(-91.52, -1780.08, 4663.79);
 		a.add(infospota1);
 
-		infospota1.addEventListener('click', function () {
+		infospota1.addEventListener('click', function() {
 
 			ChangePanorama('gbkirihight');
 
@@ -1102,9 +970,9 @@
 		infospota2.visible = false;
 		a.add(infospota2);
 
-		infospota2.addEventListener('click', function () {
+		infospota2.addEventListener('click', function() {
 
-			showMedia(1, '/gbrvirtualtour/images/cswanita.jpg');
+			showMedia(1, '/gbrvirtualtour/images/cswanita.gif');
 
 		});
 
@@ -1112,7 +980,7 @@
 		infospota3.position.set(59.10, -4997.67, -4.97);
 		a.add(infospota3);
 
-		infospota3.addEventListener('click', function () {
+		infospota3.addEventListener('click', function() {
 
 			showMedia(1, '/gbrvirtualtour/images/lt1.1.png');
 
@@ -1122,7 +990,7 @@
 		infospota4.position.set(3230.68, -1820.91, 3341.39);
 		a.add(infospota4);
 
-		infospota4.addEventListener('click', function () {
+		infospota4.addEventListener('click', function() {
 
 			ChangePanorama('tanggakiriA');
 
@@ -1131,21 +999,20 @@
 		viewer.add(a);
 
 		var gbkirihight = new PANOLENS.ImagePanorama("/gbrvirtualtour/panoramas/gbkirihight.jpg");
-		gbkirihight.addEventListener('progress', function (e) {
+		gbkirihight.addEventListener('progress', function(e) {
 			$("#loading").show();
 		});
-		gbkirihight.addEventListener('load', function (e) {
+		gbkirihight.addEventListener('load', function(e) {
 			$("#loading").fadeOut();
 		});
-		gbkirihight.addEventListener('click', function (e) {
-		});
+		gbkirihight.addEventListener('click', function(e) {});
 
 
 		var infospotgbkirihight0 = new PANOLENS.Infospot(512, hotspotIcons[6].data, true);
 		infospotgbkirihight0.position.set(4952.83, -577.36, 188.08);
 		gbkirihight.add(infospotgbkirihight0);
 
-		infospotgbkirihight0.addEventListener('click', function () {
+		infospotgbkirihight0.addEventListener('click', function() {
 
 			ChangePanorama('a');
 
@@ -1155,7 +1022,7 @@
 		infospotgbkirihight1.position.set(-2390.25, -755.40, 4320.60);
 		gbkirihight.add(infospotgbkirihight1);
 
-		infospotgbkirihight1.addEventListener('click', function () {
+		infospotgbkirihight1.addEventListener('click', function() {
 
 			ChangePanorama('tuguhight');
 
@@ -1164,21 +1031,20 @@
 		viewer.add(gbkirihight);
 
 		var tuguhight = new PANOLENS.ImagePanorama("/gbrvirtualtour/panoramas/tuguhight.jpg");
-		tuguhight.addEventListener('progress', function (e) {
+		tuguhight.addEventListener('progress', function(e) {
 			$("#loading").show();
 		});
-		tuguhight.addEventListener('load', function (e) {
+		tuguhight.addEventListener('load', function(e) {
 			$("#loading").fadeOut();
 		});
-		tuguhight.addEventListener('click', function (e) {
-		});
+		tuguhight.addEventListener('click', function(e) {});
 
 
 		var infospottuguhight0 = new PANOLENS.Infospot(512, hotspotIcons[6].data, true);
 		infospottuguhight0.position.set(1995.33, -694.13, -4527.75);
 		tuguhight.add(infospottuguhight0);
 
-		infospottuguhight0.addEventListener('click', function () {
+		infospottuguhight0.addEventListener('click', function() {
 
 			ChangePanorama('gbkirihight');
 
@@ -1187,21 +1053,20 @@
 		viewer.add(tuguhight);
 
 		var tanggakiriA = new PANOLENS.ImagePanorama("/gbrvirtualtour/panoramas/tanggakiriA.jpg");
-		tanggakiriA.addEventListener('progress', function (e) {
+		tanggakiriA.addEventListener('progress', function(e) {
 			$("#loading").show();
 		});
-		tanggakiriA.addEventListener('load', function (e) {
+		tanggakiriA.addEventListener('load', function(e) {
 			$("#loading").fadeOut();
 		});
-		tanggakiriA.addEventListener('click', function (e) {
-		});
+		tanggakiriA.addEventListener('click', function(e) {});
 
 
 		var infospottanggakiriA0 = new PANOLENS.Infospot(512, hotspotIcons[6].data, true);
 		infospottanggakiriA0.position.set(4417.32, -1901.80, 1354.40);
 		tanggakiriA.add(infospottanggakiriA0);
 
-		infospottanggakiriA0.addEventListener('click', function () {
+		infospottanggakiriA0.addEventListener('click', function() {
 
 			ChangePanorama('a');
 
@@ -1211,7 +1076,7 @@
 		infospottanggakiriA1.position.set(4929.23, 377.93, -701.77);
 		tanggakiriA.add(infospottanggakiriA1);
 
-		infospottanggakiriA1.addEventListener('click', function () {
+		infospottanggakiriA1.addEventListener('click', function() {
 
 			ChangePanorama('aa');
 
@@ -1221,7 +1086,7 @@
 		infospottanggakiriA2.position.set(25.30, -4998.99, -5.02);
 		tanggakiriA.add(infospottanggakiriA2);
 
-		infospottanggakiriA2.addEventListener('click', function () {
+		infospottanggakiriA2.addEventListener('click', function() {
 
 			showMedia(1, '/gbrvirtualtour/images/tanggakiri1-2.png');
 
@@ -1230,21 +1095,20 @@
 		viewer.add(tanggakiriA);
 
 		var aa = new PANOLENS.ImagePanorama("/gbrvirtualtour/panoramas/aa.jpg");
-		aa.addEventListener('progress', function (e) {
+		aa.addEventListener('progress', function(e) {
 			$("#loading").show();
 		});
-		aa.addEventListener('load', function (e) {
+		aa.addEventListener('load', function(e) {
 			$("#loading").fadeOut();
 		});
-		aa.addEventListener('click', function (e) {
-		});
+		aa.addEventListener('click', function(e) {});
 
 
 		var infospotaa0 = new PANOLENS.Infospot(512, hotspotIcons[6].data, true);
 		infospotaa0.position.set(3165.31, -1071.65, 3708.67);
 		aa.add(infospotaa0);
 
-		infospotaa0.addEventListener('click', function () {
+		infospotaa0.addEventListener('click', function() {
 
 			ChangePanorama('tanggakiriA');
 
@@ -1254,7 +1118,7 @@
 		infospotaa1.position.set(392.45, -2534.44, -4286.35);
 		aa.add(infospotaa1);
 
-		infospotaa1.addEventListener('click', function () {
+		infospotaa1.addEventListener('click', function() {
 
 			ChangePanorama('bb');
 
@@ -1265,9 +1129,9 @@
 		infospotaa2.visible = false;
 		aa.add(infospotaa2);
 
-		infospotaa2.addEventListener('click', function () {
+		infospotaa2.addEventListener('click', function() {
 
-			showMedia(1, '/gbrvirtualtour/images/ruangtik.jpg');
+			showMedia(1, '/gbrvirtualtour/images/ruangtik.gif');
 
 		});
 
@@ -1275,7 +1139,7 @@
 		infospotaa3.position.set(457.96, -4975.67, -93.50);
 		aa.add(infospotaa3);
 
-		infospotaa3.addEventListener('click', function () {
+		infospotaa3.addEventListener('click', function() {
 
 			showMedia(1, '/gbrvirtualtour/images/lt2.1.png');
 
@@ -1285,7 +1149,7 @@
 		infospotaa4.position.set(4101.85, -840.29, 2717.46);
 		aa.add(infospotaa4);
 
-		infospotaa4.addEventListener('click', function () {
+		infospotaa4.addEventListener('click', function() {
 
 			ChangePanorama('tanggakiriB');
 
@@ -1294,21 +1158,20 @@
 		viewer.add(aa);
 
 		var bb = new PANOLENS.ImagePanorama("/gbrvirtualtour/panoramas/bb.jpg");
-		bb.addEventListener('progress', function (e) {
+		bb.addEventListener('progress', function(e) {
 			$("#loading").show();
 		});
-		bb.addEventListener('load', function (e) {
+		bb.addEventListener('load', function(e) {
 			$("#loading").fadeOut();
 		});
-		bb.addEventListener('click', function (e) {
-		});
+		bb.addEventListener('click', function(e) {});
 
 
 		var infospotbb0 = new PANOLENS.Infospot(512, hotspotIcons[6].data, true);
 		infospotbb0.position.set(-3967.78, -3028.77, -123.63);
 		bb.add(infospotbb0);
 
-		infospotbb0.addEventListener('click', function () {
+		infospotbb0.addEventListener('click', function() {
 
 			ChangePanorama('aa');
 
@@ -1318,7 +1181,7 @@
 		infospotbb1.position.set(304.07, -2657.06, -4217.48);
 		bb.add(infospotbb1);
 
-		infospotbb1.addEventListener('click', function () {
+		infospotbb1.addEventListener('click', function() {
 
 			ChangePanorama('cc');
 
@@ -1329,9 +1192,9 @@
 		infospotbb2.visible = false;
 		bb.add(infospotbb2);
 
-		infospotbb2.addEventListener('click', function () {
+		infospotbb2.addEventListener('click', function() {
 
-			showMedia(1, '/gbrvirtualtour/images/smartarea.jpg');
+			showMedia(1, '/gbrvirtualtour/images/smrtareawclt2.gif');
 
 		});
 
@@ -1340,7 +1203,7 @@
 		infospotbb3.visible = false;
 		bb.add(infospotbb3);
 
-		infospotbb3.addEventListener('click', function () {
+		infospotbb3.addEventListener('click', function() {
 
 			showMedia(1, '/gbrvirtualtour/images/wc.jpg');
 
@@ -1350,7 +1213,7 @@
 		infospotbb4.position.set(16.64, -4999.34, 2.01);
 		bb.add(infospotbb4);
 
-		infospotbb4.addEventListener('click', function () {
+		infospotbb4.addEventListener('click', function() {
 
 			showMedia(1, '/gbrvirtualtour/images/lt2.2.png');
 
@@ -1359,21 +1222,20 @@
 		viewer.add(bb);
 
 		var cc = new PANOLENS.ImagePanorama("/gbrvirtualtour/panoramas/cc.jpg");
-		cc.addEventListener('progress', function (e) {
+		cc.addEventListener('progress', function(e) {
 			$("#loading").show();
 		});
-		cc.addEventListener('load', function (e) {
+		cc.addEventListener('load', function(e) {
 			$("#loading").fadeOut();
 		});
-		cc.addEventListener('click', function (e) {
-		});
+		cc.addEventListener('click', function(e) {});
 
 
 		var infospotcc0 = new PANOLENS.Infospot(512, hotspotIcons[6].data, true);
 		infospotcc0.position.set(-472.61, -2411.02, 4349.65);
 		cc.add(infospotcc0);
 
-		infospotcc0.addEventListener('click', function () {
+		infospotcc0.addEventListener('click', function() {
 
 			ChangePanorama('bb');
 
@@ -1383,7 +1245,7 @@
 		infospotcc1.position.set(413.72, -2591.70, -4253.16);
 		cc.add(infospotcc1);
 
-		infospotcc1.addEventListener('click', function () {
+		infospotcc1.addEventListener('click', function() {
 
 			ChangePanorama('dd');
 
@@ -1394,9 +1256,9 @@
 		infospotcc2.visible = false;
 		cc.add(infospotcc2);
 
-		infospotcc2.addEventListener('click', function () {
+		infospotcc2.addEventListener('click', function() {
 
-			showMedia(1, '/gbrvirtualtour/images/h22.jpg');
+			showMedia(1, '/gbrvirtualtour/images/h22.gif');
 
 		});
 
@@ -1405,9 +1267,9 @@
 		infospotcc3.visible = false;
 		cc.add(infospotcc3);
 
-		infospotcc3.addEventListener('click', function () {
+		infospotcc3.addEventListener('click', function() {
 
-			showMedia(1, '/gbrvirtualtour/images/h24.jpg');
+			showMedia(1, '/gbrvirtualtour/images/h24.gif');
 
 		});
 
@@ -1415,7 +1277,7 @@
 		infospotcc4.position.set(5.96, -4997.91, -52.92);
 		cc.add(infospotcc4);
 
-		infospotcc4.addEventListener('click', function () {
+		infospotcc4.addEventListener('click', function() {
 
 			showMedia(1, '/gbrvirtualtour/images/lt2.3.png');
 
@@ -1424,21 +1286,20 @@
 		viewer.add(cc);
 
 		var dd = new PANOLENS.ImagePanorama("/gbrvirtualtour/panoramas/dd.jpg");
-		dd.addEventListener('progress', function (e) {
+		dd.addEventListener('progress', function(e) {
 			$("#loading").show();
 		});
-		dd.addEventListener('load', function (e) {
+		dd.addEventListener('load', function(e) {
 			$("#loading").fadeOut();
 		});
-		dd.addEventListener('click', function (e) {
-		});
+		dd.addEventListener('click', function(e) {});
 
 
 		var infospotdd0 = new PANOLENS.Infospot(512, hotspotIcons[6].data, true);
 		infospotdd0.position.set(21.17, -2368.53, -4398.72);
 		dd.add(infospotdd0);
 
-		infospotdd0.addEventListener('click', function () {
+		infospotdd0.addEventListener('click', function() {
 
 			ChangePanorama('cc');
 
@@ -1448,7 +1309,7 @@
 		infospotdd1.position.set(-207.70, -3020.87, 3969.60);
 		dd.add(infospotdd1);
 
-		infospotdd1.addEventListener('click', function () {
+		infospotdd1.addEventListener('click', function() {
 
 			ChangePanorama('ee');
 
@@ -1459,9 +1320,9 @@
 		infospotdd2.visible = false;
 		dd.add(infospotdd2);
 
-		infospotdd2.addEventListener('click', function () {
+		infospotdd2.addEventListener('click', function() {
 
-			showMedia(1, '/gbrvirtualtour/images/dosenkimia.jpg');
+			showMedia(1, '/gbrvirtualtour/images/dosenkimia.gif');
 
 		});
 
@@ -1469,7 +1330,7 @@
 		infospotdd3.position.set(-17.08, -4998.93, -21.09);
 		dd.add(infospotdd3);
 
-		infospotdd3.addEventListener('click', function () {
+		infospotdd3.addEventListener('click', function() {
 
 			showMedia(1, '/gbrvirtualtour/images/lt2.4.png');
 
@@ -1478,21 +1339,20 @@
 		viewer.add(dd);
 
 		var ee = new PANOLENS.ImagePanorama("/gbrvirtualtour/panoramas/ee.jpg");
-		ee.addEventListener('progress', function (e) {
+		ee.addEventListener('progress', function(e) {
 			$("#loading").show();
 		});
-		ee.addEventListener('load', function (e) {
+		ee.addEventListener('load', function(e) {
 			$("#loading").fadeOut();
 		});
-		ee.addEventListener('click', function (e) {
-		});
+		ee.addEventListener('click', function(e) {});
 
 
 		var infospotee0 = new PANOLENS.Infospot(512, hotspotIcons[6].data, true);
 		infospotee0.position.set(116.11, -2602.94, -4262.46);
 		ee.add(infospotee0);
 
-		infospotee0.addEventListener('click', function () {
+		infospotee0.addEventListener('click', function() {
 
 			ChangePanorama('dd');
 
@@ -1502,7 +1362,7 @@
 		infospotee1.position.set(-221.54, -3132.66, 3880.75);
 		ee.add(infospotee1);
 
-		infospotee1.addEventListener('click', function () {
+		infospotee1.addEventListener('click', function() {
 
 			ChangePanorama('fg');
 
@@ -1513,9 +1373,9 @@
 		infospotee2.visible = false;
 		ee.add(infospotee2);
 
-		infospotee2.addEventListener('click', function () {
+		infospotee2.addEventListener('click', function() {
 
-			showMedia(1, '/gbrvirtualtour/images/dosensisfo.jpg');
+			showMedia(1, '/gbrvirtualtour/images/dosensisfo.gif');
 
 		});
 
@@ -1524,9 +1384,9 @@
 		infospotee3.visible = false;
 		ee.add(infospotee3);
 
-		infospotee3.addEventListener('click', function () {
+		infospotee3.addEventListener('click', function() {
 
-			showMedia(1, '/gbrvirtualtour/images/h23.jpg');
+			showMedia(1, '/gbrvirtualtour/images/h23.gif');
 
 		});
 
@@ -1535,9 +1395,9 @@
 		infospotee4.visible = false;
 		ee.add(infospotee4);
 
-		infospotee4.addEventListener('click', function () {
+		infospotee4.addEventListener('click', function() {
 
-			showMedia(1, '/gbrvirtualtour/images/h26.jpg');
+			showMedia(1, '/gbrvirtualtour/images/h26.gif');
 
 		});
 
@@ -1546,9 +1406,9 @@
 		infospotee5.visible = false;
 		ee.add(infospotee5);
 
-		infospotee5.addEventListener('click', function () {
+		infospotee5.addEventListener('click', function() {
 
-			showMedia(1, '/gbrvirtualtour/images/h28.jpg');
+			showMedia(1, '/gbrvirtualtour/images/h28.gif');
 
 		});
 
@@ -1556,7 +1416,7 @@
 		infospotee6.position.set(5.49, -4999.40, -14.27);
 		ee.add(infospotee6);
 
-		infospotee6.addEventListener('click', function () {
+		infospotee6.addEventListener('click', function() {
 
 			showMedia(1, '/gbrvirtualtour/images/lt2.5.png');
 
@@ -1565,21 +1425,20 @@
 		viewer.add(ee);
 
 		var fg = new PANOLENS.ImagePanorama("/gbrvirtualtour/panoramas/fg.jpg");
-		fg.addEventListener('progress', function (e) {
+		fg.addEventListener('progress', function(e) {
 			$("#loading").show();
 		});
-		fg.addEventListener('load', function (e) {
+		fg.addEventListener('load', function(e) {
 			$("#loading").fadeOut();
 		});
-		fg.addEventListener('click', function (e) {
-		});
+		fg.addEventListener('click', function(e) {});
 
 
 		var infospotfg0 = new PANOLENS.Infospot(512, hotspotIcons[6].data, true);
 		infospotfg0.position.set(160.53, -2518.41, -4307.48);
 		fg.add(infospotfg0);
 
-		infospotfg0.addEventListener('click', function () {
+		infospotfg0.addEventListener('click', function() {
 
 			ChangePanorama('ee');
 
@@ -1589,7 +1448,7 @@
 		infospotfg1.position.set(-209.43, -2144.57, 4501.86);
 		fg.add(infospotfg1);
 
-		infospotfg1.addEventListener('click', function () {
+		infospotfg1.addEventListener('click', function() {
 
 			ChangePanorama('hh');
 
@@ -1600,9 +1459,9 @@
 		infospotfg2.visible = false;
 		fg.add(infospotfg2);
 
-		infospotfg2.addEventListener('click', function () {
+		infospotfg2.addEventListener('click', function() {
 
-			showMedia(1, '/gbrvirtualtour/images/h210.jpg');
+			showMedia(1, '/gbrvirtualtour/images/h210.gif');
 
 		});
 
@@ -1611,9 +1470,9 @@
 		infospotfg3.visible = false;
 		fg.add(infospotfg3);
 
-		infospotfg3.addEventListener('click', function () {
+		infospotfg3.addEventListener('click', function() {
 
-			showMedia(1, '/gbrvirtualtour/images/ruangjurusanmtk.jpg');
+			showMedia(1, '/gbrvirtualtour/images/ruangjurusanmtk.gif');
 
 		});
 
@@ -1621,7 +1480,7 @@
 		infospotfg4.position.set(-16.25, -4999.36, 2.15);
 		fg.add(infospotfg4);
 
-		infospotfg4.addEventListener('click', function () {
+		infospotfg4.addEventListener('click', function() {
 
 			showMedia(1, '/gbrvirtualtour/images/lt2.6-7.png');
 
@@ -1630,21 +1489,20 @@
 		viewer.add(fg);
 
 		var hh = new PANOLENS.ImagePanorama("/gbrvirtualtour/panoramas/hh.jpg");
-		hh.addEventListener('progress', function (e) {
+		hh.addEventListener('progress', function(e) {
 			$("#loading").show();
 		});
-		hh.addEventListener('load', function (e) {
+		hh.addEventListener('load', function(e) {
 			$("#loading").fadeOut();
 		});
-		hh.addEventListener('click', function (e) {
-		});
+		hh.addEventListener('click', function(e) {});
 
 
 		var infospothh0 = new PANOLENS.Infospot(512, hotspotIcons[6].data, true);
 		infospothh0.position.set(-65.94, -3042.05, -3960.33);
 		hh.add(infospothh0);
 
-		infospothh0.addEventListener('click', function () {
+		infospothh0.addEventListener('click', function() {
 
 			ChangePanorama('fg');
 
@@ -1654,7 +1512,7 @@
 		infospothh1.position.set(218.33, -2920.17, 4046.18);
 		hh.add(infospothh1);
 
-		infospothh1.addEventListener('click', function () {
+		infospothh1.addEventListener('click', function() {
 
 			ChangePanorama('ii');
 
@@ -1665,9 +1523,9 @@
 		infospothh2.visible = false;
 		hh.add(infospothh2);
 
-		infospothh2.addEventListener('click', function () {
+		infospothh2.addEventListener('click', function() {
 
-			showMedia(1, '/gbrvirtualtour/images/drharlia.jpg');
+			showMedia(1, '/gbrvirtualtour/images/drharlia.gif');
 
 		});
 
@@ -1675,7 +1533,7 @@
 		infospothh3.position.set(3975.69, -1279.93, 2734.20);
 		hh.add(infospothh3);
 
-		infospothh3.addEventListener('click', function () {
+		infospothh3.addEventListener('click', function() {
 
 			ChangePanorama('tanggatengahA');
 
@@ -1685,7 +1543,7 @@
 		infospothh4.position.set(6.19, -4999.44, -12.86);
 		hh.add(infospothh4);
 
-		infospothh4.addEventListener('click', function () {
+		infospothh4.addEventListener('click', function() {
 
 			showMedia(1, '/gbrvirtualtour/images/lt2.8.png');
 
@@ -1695,7 +1553,7 @@
 		infospothh5.position.set(4894.42, -181.83, 970.68);
 		hh.add(infospothh5);
 
-		infospothh5.addEventListener('click', function () {
+		infospothh5.addEventListener('click', function() {
 
 			ChangePanorama('tanggatengahB');
 
@@ -1704,21 +1562,20 @@
 		viewer.add(hh);
 
 		var ii = new PANOLENS.ImagePanorama("/gbrvirtualtour/panoramas/ii.jpg");
-		ii.addEventListener('progress', function (e) {
+		ii.addEventListener('progress', function(e) {
 			$("#loading").show();
 		});
-		ii.addEventListener('load', function (e) {
+		ii.addEventListener('load', function(e) {
 			$("#loading").fadeOut();
 		});
-		ii.addEventListener('click', function (e) {
-		});
+		ii.addEventListener('click', function(e) {});
 
 
 		var infospotii0 = new PANOLENS.Infospot(512, hotspotIcons[6].data, true);
 		infospotii0.position.set(-99.87, -2830.17, 4112.52);
 		ii.add(infospotii0);
 
-		infospotii0.addEventListener('click', function () {
+		infospotii0.addEventListener('click', function() {
 
 			ChangePanorama('hh');
 
@@ -1728,7 +1585,7 @@
 		infospotii1.position.set(-277.47, -3025.80, -3962.06);
 		ii.add(infospotii1);
 
-		infospotii1.addEventListener('click', function () {
+		infospotii1.addEventListener('click', function() {
 
 			ChangePanorama('jj');
 
@@ -1739,9 +1596,9 @@
 		infospotii2.visible = false;
 		ii.add(infospotii2);
 
-		infospotii2.addEventListener('click', function () {
+		infospotii2.addEventListener('click', function() {
 
-			showMedia(1, '/gbrvirtualtour/images/musolapria.jpg');
+			showMedia(1, '/gbrvirtualtour/images/musolapria.gif');
 
 		});
 
@@ -1750,9 +1607,9 @@
 		infospotii3.visible = false;
 		ii.add(infospotii3);
 
-		infospotii3.addEventListener('click', function () {
+		infospotii3.addEventListener('click', function() {
 
-			showMedia(1, '/gbrvirtualtour/images/smartarea.jpg');
+			showMedia(1, '/gbrvirtualtour/images/smrtareamusolalt2.gif');
 
 		});
 
@@ -1760,7 +1617,7 @@
 		infospotii4.position.set(0.09, -4999.82, -4.55);
 		ii.add(infospotii4);
 
-		infospotii4.addEventListener('click', function () {
+		infospotii4.addEventListener('click', function() {
 
 			showMedia(1, '/gbrvirtualtour/images/lt2.9.png');
 
@@ -1769,21 +1626,20 @@
 		viewer.add(ii);
 
 		var jj = new PANOLENS.ImagePanorama("/gbrvirtualtour/panoramas/jj.jpg");
-		jj.addEventListener('progress', function (e) {
+		jj.addEventListener('progress', function(e) {
 			$("#loading").show();
 		});
-		jj.addEventListener('load', function (e) {
+		jj.addEventListener('load', function(e) {
 			$("#loading").fadeOut();
 		});
-		jj.addEventListener('click', function (e) {
-		});
+		jj.addEventListener('click', function(e) {});
 
 
 		var infospotjj0 = new PANOLENS.Infospot(512, hotspotIcons[6].data, true);
 		infospotjj0.position.set(188.48, -2993.90, -3991.87);
 		jj.add(infospotjj0);
 
-		infospotjj0.addEventListener('click', function () {
+		infospotjj0.addEventListener('click', function() {
 
 			ChangePanorama('ii');
 
@@ -1793,7 +1649,7 @@
 		infospotjj1.position.set(246.81, -3425.56, 3624.26);
 		jj.add(infospotjj1);
 
-		infospotjj1.addEventListener('click', function () {
+		infospotjj1.addEventListener('click', function() {
 
 			ChangePanorama('kk');
 
@@ -1804,9 +1660,9 @@
 		infospotjj2.visible = false;
 		jj.add(infospotjj2);
 
-		infospotjj2.addEventListener('click', function () {
+		infospotjj2.addEventListener('click', function() {
 
-			showMedia(1, '/gbrvirtualtour/images/keuangan.jpg');
+			showMedia(1, '/gbrvirtualtour/images/keuangan.gif');
 
 		});
 
@@ -1814,30 +1670,36 @@
 		infospotjj3.position.set(-0.63, -4999.17, -21.19);
 		jj.add(infospotjj3);
 
-		infospotjj3.addEventListener('click', function () {
+		infospotjj3.addEventListener('click', function() {
 
 			showMedia(1, '/gbrvirtualtour/images/lt2.10.png');
 
 		});
+		var infospotjj4 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
+			infospotjj4.position.set(3959.71, 1154.47, 2821.73);
+			infospotjj4.visible = false;
+			jj.add(infospotjj4);
 
+			infospotjj4.addEventListener('click', function () {
+				showMedia(1, '/gbrvirtualtour/images/simposium.gif');
+			});
 		viewer.add(jj);
 
 		var kk = new PANOLENS.ImagePanorama("/gbrvirtualtour/panoramas/kk.jpg");
-		kk.addEventListener('progress', function (e) {
+		kk.addEventListener('progress', function(e) {
 			$("#loading").show();
 		});
-		kk.addEventListener('load', function (e) {
+		kk.addEventListener('load', function(e) {
 			$("#loading").fadeOut();
 		});
-		kk.addEventListener('click', function (e) {
-		});
+		kk.addEventListener('click', function(e) {});
 
 
 		var infospotkk0 = new PANOLENS.Infospot(512, hotspotIcons[6].data, true);
 		infospotkk0.position.set(-393.43, -2617.89, 4238.98);
 		kk.add(infospotkk0);
 
-		infospotkk0.addEventListener('click', function () {
+		infospotkk0.addEventListener('click', function() {
 
 			ChangePanorama('jj');
 
@@ -1847,7 +1709,7 @@
 		infospotkk1.position.set(-111.01, -3500.28, -3562.30);
 		kk.add(infospotkk1);
 
-		infospotkk1.addEventListener('click', function () {
+		infospotkk1.addEventListener('click', function() {
 
 			ChangePanorama('ll');
 
@@ -1858,9 +1720,9 @@
 		infospotkk2.visible = false;
 		kk.add(infospotkk2);
 
-		infospotkk2.addEventListener('click', function () {
+		infospotkk2.addEventListener('click', function() {
 
-			showMedia(1, '/gbrvirtualtour/images/senat.jpg');
+			showMedia(1, '/gbrvirtualtour/images/senat.gif');
 
 		});
 
@@ -1868,7 +1730,7 @@
 		infospotkk3.position.set(-128.53, -4993.29, -112.11);
 		kk.add(infospotkk3);
 
-		infospotkk3.addEventListener('click', function () {
+		infospotkk3.addEventListener('click', function() {
 
 			showMedia(1, '/gbrvirtualtour/images/lt2.11.png');
 
@@ -1877,21 +1739,20 @@
 		viewer.add(kk);
 
 		var ll = new PANOLENS.ImagePanorama("/gbrvirtualtour/panoramas/ll.jpg");
-		ll.addEventListener('progress', function (e) {
+		ll.addEventListener('progress', function(e) {
 			$("#loading").show();
 		});
-		ll.addEventListener('load', function (e) {
+		ll.addEventListener('load', function(e) {
 			$("#loading").fadeOut();
 		});
-		ll.addEventListener('click', function (e) {
-		});
+		ll.addEventListener('click', function(e) {});
 
 
 		var infospotll0 = new PANOLENS.Infospot(512, hotspotIcons[6].data, true);
 		infospotll0.position.set(161.91, -3451.80, -3604.45);
 		ll.add(infospotll0);
 
-		infospotll0.addEventListener('click', function () {
+		infospotll0.addEventListener('click', function() {
 
 			ChangePanorama('kk');
 
@@ -1901,7 +1762,7 @@
 		infospotll1.position.set(-4007.96, -2960.33, 386.38);
 		ll.add(infospotll1);
 
-		infospotll1.addEventListener('click', function () {
+		infospotll1.addEventListener('click', function() {
 
 			ChangePanorama('mm');
 
@@ -1912,9 +1773,9 @@
 		infospotll2.visible = false;
 		ll.add(infospotll2);
 
-		infospotll2.addEventListener('click', function () {
+		infospotll2.addEventListener('click', function() {
 
-			showMedia(1, '/gbrvirtualtour/images/dekan.jpg');
+			showMedia(1, '/gbrvirtualtour/images/dekan.gif');
 
 		});
 
@@ -1923,9 +1784,9 @@
 		infospotll3.visible = false;
 		ll.add(infospotll3);
 
-		infospotll3.addEventListener('click', function () {
+		infospotll3.addEventListener('click', function() {
 
-			showMedia(1, '/gbrvirtualtour/images/dosenikel.jpg');
+			showMedia(1, '/gbrvirtualtour/images/dosenikel.gif');
 
 		});
 
@@ -1934,9 +1795,9 @@
 		infospotll4.visible = false;
 		ll.add(infospotll4);
 
-		infospotll4.addEventListener('click', function () {
+		infospotll4.addEventListener('click', function() {
 
-			showMedia(1, '/gbrvirtualtour/images/dosenmatematika.jpg');
+			showMedia(1, '/gbrvirtualtour/images/dosenmatematika.gif');
 
 		});
 
@@ -1944,7 +1805,7 @@
 		infospotll5.position.set(41.42, -4997.52, 47.47);
 		ll.add(infospotll5);
 
-		infospotll5.addEventListener('click', function () {
+		infospotll5.addEventListener('click', function() {
 
 			showMedia(1, '/gbrvirtualtour/images/lt2.12.png');
 
@@ -1953,21 +1814,20 @@
 		viewer.add(ll);
 
 		var mm = new PANOLENS.ImagePanorama("/gbrvirtualtour/panoramas/mm.jpg");
-		mm.addEventListener('progress', function (e) {
+		mm.addEventListener('progress', function(e) {
 			$("#loading").show();
 		});
-		mm.addEventListener('load', function (e) {
+		mm.addEventListener('load', function(e) {
 			$("#loading").fadeOut();
 		});
-		mm.addEventListener('click', function (e) {
-		});
+		mm.addEventListener('click', function(e) {});
 
 
 		var infospotmm0 = new PANOLENS.Infospot(512, hotspotIcons[6].data, true);
 		infospotmm0.position.set(157.95, -3468.43, 3589.28);
 		mm.add(infospotmm0);
 
-		infospotmm0.addEventListener('click', function () {
+		infospotmm0.addEventListener('click', function() {
 
 			ChangePanorama('ll');
 
@@ -1977,7 +1837,7 @@
 		infospotmm1.position.set(433.70, -3143.67, -3858.01);
 		mm.add(infospotmm1);
 
-		infospotmm1.addEventListener('click', function () {
+		infospotmm1.addEventListener('click', function() {
 
 			ChangePanorama('nn');
 
@@ -1988,9 +1848,9 @@
 		infospotmm2.visible = false;
 		mm.add(infospotmm2);
 
-		infospotmm2.addEventListener('click', function () {
+		infospotmm2.addEventListener('click', function() {
 
-			showMedia(1, '/gbrvirtualtour/images/wakildekan.jpg');
+			showMedia(1, '/gbrvirtualtour/images/wakildekan.gif');
 
 		});
 
@@ -1998,7 +1858,7 @@
 		infospotmm3.position.set(-25.37, -4998.99, 4.62);
 		mm.add(infospotmm3);
 
-		infospotmm3.addEventListener('click', function () {
+		infospotmm3.addEventListener('click', function() {
 
 			showMedia(1, '/gbrvirtualtour/images/lt2.13.png');
 
@@ -2007,21 +1867,20 @@
 		viewer.add(mm);
 
 		var nn = new PANOLENS.ImagePanorama("/gbrvirtualtour/panoramas/nn.jpg");
-		nn.addEventListener('progress', function (e) {
+		nn.addEventListener('progress', function(e) {
 			$("#loading").show();
 		});
-		nn.addEventListener('load', function (e) {
+		nn.addEventListener('load', function(e) {
 			$("#loading").fadeOut();
 		});
-		nn.addEventListener('click', function (e) {
-		});
+		nn.addEventListener('click', function(e) {});
 
 
 		var infospotnn0 = new PANOLENS.Infospot(512, hotspotIcons[6].data, true);
 		infospotnn0.position.set(-77.51, -2855.60, -4096.70);
 		nn.add(infospotnn0);
 
-		infospotnn0.addEventListener('click', function () {
+		infospotnn0.addEventListener('click', function() {
 
 			ChangePanorama('mm');
 
@@ -2031,7 +1890,7 @@
 		infospotnn1.position.set(88.80, -3370.85, 3683.12);
 		nn.add(infospotnn1);
 
-		infospotnn1.addEventListener('click', function () {
+		infospotnn1.addEventListener('click', function() {
 
 			ChangePanorama('oo');
 
@@ -2042,9 +1901,9 @@
 		infospotnn2.visible = false;
 		nn.add(infospotnn2);
 
-		infospotnn2.addEventListener('click', function () {
+		infospotnn2.addEventListener('click', function() {
 
-			showMedia(1, '/gbrvirtualtour/images/jurusanfisika.jpg');
+			showMedia(1, '/gbrvirtualtour/images/jurusanfisika.gif');
 
 		});
 
@@ -2052,7 +1911,7 @@
 		infospotnn3.position.set(-49.88, -4997.52, -38.55);
 		nn.add(infospotnn3);
 
-		infospotnn3.addEventListener('click', function () {
+		infospotnn3.addEventListener('click', function() {
 
 			showMedia(1, '/gbrvirtualtour/images/lt2.14.png');
 
@@ -2061,21 +1920,20 @@
 		viewer.add(nn);
 
 		var oo = new PANOLENS.ImagePanorama("/gbrvirtualtour/panoramas/oo.jpg");
-		oo.addEventListener('progress', function (e) {
+		oo.addEventListener('progress', function(e) {
 			$("#loading").show();
 		});
-		oo.addEventListener('load', function (e) {
+		oo.addEventListener('load', function(e) {
 			$("#loading").fadeOut();
 		});
-		oo.addEventListener('click', function (e) {
-		});
+		oo.addEventListener('click', function(e) {});
 
 
 		var infospotoo0 = new PANOLENS.Infospot(512, hotspotIcons[6].data, true);
 		infospotoo0.position.set(-281.26, -3593.56, -3458.03);
 		oo.add(infospotoo0);
 
-		infospotoo0.addEventListener('click', function () {
+		infospotoo0.addEventListener('click', function() {
 
 			ChangePanorama('nn');
 
@@ -2086,9 +1944,9 @@
 		infospotoo1.visible = false;
 		oo.add(infospotoo1);
 
-		infospotoo1.addEventListener('click', function () {
+		infospotoo1.addEventListener('click', function() {
 
-			showMedia(1, '/gbrvirtualtour/images/drtamrin.jpg');
+			showMedia(1, '/gbrvirtualtour/images/drtamrin.gif');
 
 		});
 
@@ -2096,7 +1954,7 @@
 		infospotoo2.position.set(27.33, -4998.88, -7.84);
 		oo.add(infospotoo2);
 
-		infospotoo2.addEventListener('click', function () {
+		infospotoo2.addEventListener('click', function() {
 
 			showMedia(1, '/gbrvirtualtour/images/lt2.15.png');
 
@@ -2105,21 +1963,20 @@
 		viewer.add(oo);
 
 		var tanggatengahA = new PANOLENS.ImagePanorama("/gbrvirtualtour/panoramas/tanggatengahA.jpg");
-		tanggatengahA.addEventListener('progress', function (e) {
+		tanggatengahA.addEventListener('progress', function(e) {
 			$("#loading").show();
 		});
-		tanggatengahA.addEventListener('load', function (e) {
+		tanggatengahA.addEventListener('load', function(e) {
 			$("#loading").fadeOut();
 		});
-		tanggatengahA.addEventListener('click', function (e) {
-		});
+		tanggatengahA.addEventListener('click', function(e) {});
 
 
 		var infospottanggatengahA0 = new PANOLENS.Infospot(512, hotspotIcons[6].data, true);
 		infospottanggatengahA0.position.set(4889.04, 46.70, -1038.56);
 		tanggatengahA.add(infospottanggatengahA0);
 
-		infospottanggatengahA0.addEventListener('click', function () {
+		infospottanggatengahA0.addEventListener('click', function() {
 
 			ChangePanorama('hh');
 
@@ -2129,7 +1986,7 @@
 		infospottanggatengahA1.position.set(3804.01, -2806.99, 1607.93);
 		tanggatengahA.add(infospottanggatengahA1);
 
-		infospottanggatengahA1.addEventListener('click', function () {
+		infospottanggatengahA1.addEventListener('click', function() {
 
 			ChangePanorama('g');
 
@@ -2139,7 +1996,7 @@
 		infospottanggatengahA2.position.set(7.39, -4999.17, 19.77);
 		tanggatengahA.add(infospottanggatengahA2);
 
-		infospottanggatengahA2.addEventListener('click', function () {
+		infospottanggatengahA2.addEventListener('click', function() {
 
 			showMedia(1, '/gbrvirtualtour/images/tanggatengan1-2.png');
 
@@ -2148,21 +2005,20 @@
 		viewer.add(tanggatengahA);
 
 		var aaa = new PANOLENS.ImagePanorama("/gbrvirtualtour/panoramas/aaa.jpg");
-		aaa.addEventListener('progress', function (e) {
+		aaa.addEventListener('progress', function(e) {
 			$("#loading").show();
 		});
-		aaa.addEventListener('load', function (e) {
+		aaa.addEventListener('load', function(e) {
 			$("#loading").fadeOut();
 		});
-		aaa.addEventListener('click', function (e) {
-		});
+		aaa.addEventListener('click', function(e) {});
 
 
 		var infospotaaa0 = new PANOLENS.Infospot(512, hotspotIcons[6].data, true);
 		infospotaaa0.position.set(3373.73, -1450.89, 3379.56);
 		aaa.add(infospotaaa0);
 
-		infospotaaa0.addEventListener('click', function () {
+		infospotaaa0.addEventListener('click', function() {
 
 			ChangePanorama('tanggakiriB');
 
@@ -2172,7 +2028,7 @@
 		infospotaaa1.position.set(-44.77, -3525.57, -3542.40);
 		aaa.add(infospotaaa1);
 
-		infospotaaa1.addEventListener('click', function () {
+		infospotaaa1.addEventListener('click', function() {
 
 			ChangePanorama('bbb');
 
@@ -2183,9 +2039,9 @@
 		infospotaaa2.visible = false;
 		aaa.add(infospotaaa2);
 
-		infospotaaa2.addEventListener('click', function () {
+		infospotaaa2.addEventListener('click', function() {
 
-			showMedia(1, '/gbrvirtualtour/images/ruangcic.jpg');
+			showMedia(1, '/gbrvirtualtour/images/ruangcic.gif');
 
 		});
 
@@ -2193,7 +2049,7 @@
 		infospotaaa3.position.set(110.61, -4994.77, 73.59);
 		aaa.add(infospotaaa3);
 
-		infospotaaa3.addEventListener('click', function () {
+		infospotaaa3.addEventListener('click', function() {
 
 			showMedia(1, '/gbrvirtualtour/images/lt3.1.png');
 
@@ -2202,21 +2058,20 @@
 		viewer.add(aaa);
 
 		var bbb = new PANOLENS.ImagePanorama("/gbrvirtualtour/panoramas/bbb.jpg");
-		bbb.addEventListener('progress', function (e) {
+		bbb.addEventListener('progress', function(e) {
 			$("#loading").show();
 		});
-		bbb.addEventListener('load', function (e) {
+		bbb.addEventListener('load', function(e) {
 			$("#loading").fadeOut();
 		});
-		bbb.addEventListener('click', function (e) {
-		});
+		bbb.addEventListener('click', function(e) {});
 
 
 		var infospotbbb0 = new PANOLENS.Infospot(512, hotspotIcons[6].data, true);
 		infospotbbb0.position.set(-3960.43, -2942.01, -801.92);
 		bbb.add(infospotbbb0);
 
-		infospotbbb0.addEventListener('click', function () {
+		infospotbbb0.addEventListener('click', function() {
 
 			ChangePanorama('aaa');
 
@@ -2226,7 +2081,7 @@
 		infospotbbb1.position.set(37.40, -2817.24, -4124.43);
 		bbb.add(infospotbbb1);
 
-		infospotbbb1.addEventListener('click', function () {
+		infospotbbb1.addEventListener('click', function() {
 
 			ChangePanorama('ccc');
 
@@ -2237,9 +2092,9 @@
 		infospotbbb2.visible = false;
 		bbb.add(infospotbbb2);
 
-		infospotbbb2.addEventListener('click', function () {
+		infospotbbb2.addEventListener('click', function() {
 
-			showMedia(1, '/gbrvirtualtour/images/smartarea.jpg');
+			showMedia(1, '/gbrvirtualtour/images/smrtareawclt3.gif');
 
 		});
 
@@ -2248,7 +2103,7 @@
 		infospotbbb3.visible = false;
 		bbb.add(infospotbbb3);
 
-		infospotbbb3.addEventListener('click', function () {
+		infospotbbb3.addEventListener('click', function() {
 
 			showMedia(1, '/gbrvirtualtour/images/wc.jpg');
 
@@ -2258,7 +2113,7 @@
 		infospotbbb4.position.set(-215.06, -4991.16, -65.99);
 		bbb.add(infospotbbb4);
 
-		infospotbbb4.addEventListener('click', function () {
+		infospotbbb4.addEventListener('click', function() {
 
 			showMedia(1, '/gbrvirtualtour/images/lt3.2.png');
 
@@ -2267,21 +2122,20 @@
 		viewer.add(bbb);
 
 		var ccc = new PANOLENS.ImagePanorama("/gbrvirtualtour/panoramas/ccc.jpg");
-		ccc.addEventListener('progress', function (e) {
+		ccc.addEventListener('progress', function(e) {
 			$("#loading").show();
 		});
-		ccc.addEventListener('load', function (e) {
+		ccc.addEventListener('load', function(e) {
 			$("#loading").fadeOut();
 		});
-		ccc.addEventListener('click', function (e) {
-		});
+		ccc.addEventListener('click', function(e) {});
 
 
 		var infospotccc0 = new PANOLENS.Infospot(512, hotspotIcons[6].data, true);
 		infospotccc0.position.set(-41.51, -3073.43, 3936.87);
 		ccc.add(infospotccc0);
 
-		infospotccc0.addEventListener('click', function () {
+		infospotccc0.addEventListener('click', function() {
 
 			ChangePanorama('bbb');
 
@@ -2291,7 +2145,7 @@
 		infospotccc1.position.set(-68.68, -3177.22, -3853.63);
 		ccc.add(infospotccc1);
 
-		infospotccc1.addEventListener('click', function () {
+		infospotccc1.addEventListener('click', function() {
 
 			ChangePanorama('ddd');
 
@@ -2302,9 +2156,9 @@
 		infospotccc2.visible = false;
 		ccc.add(infospotccc2);
 
-		infospotccc2.addEventListener('click', function () {
+		infospotccc2.addEventListener('click', function() {
 
-			showMedia(1, '/gbrvirtualtour/images/h31.jpg');
+			showMedia(1, '/gbrvirtualtour/images/h31.gif');
 
 		});
 
@@ -2312,7 +2166,7 @@
 		infospotccc3.position.set(-35.25, -4994.87, 125.63);
 		ccc.add(infospotccc3);
 
-		infospotccc3.addEventListener('click', function () {
+		infospotccc3.addEventListener('click', function() {
 
 			showMedia(1, '/gbrvirtualtour/images/lt3.3.png');
 
@@ -2321,21 +2175,20 @@
 		viewer.add(ccc);
 
 		var ddd = new PANOLENS.ImagePanorama("/gbrvirtualtour/panoramas/ddd.jpg");
-		ddd.addEventListener('progress', function (e) {
+		ddd.addEventListener('progress', function(e) {
 			$("#loading").show();
 		});
-		ddd.addEventListener('load', function (e) {
+		ddd.addEventListener('load', function(e) {
 			$("#loading").fadeOut();
 		});
-		ddd.addEventListener('click', function (e) {
-		});
+		ddd.addEventListener('click', function(e) {});
 
 
 		var infospotddd0 = new PANOLENS.Infospot(512, hotspotIcons[6].data, true);
 		infospotddd0.position.set(-99.90, -2855.43, 4095.64);
 		ddd.add(infospotddd0);
 
-		infospotddd0.addEventListener('click', function () {
+		infospotddd0.addEventListener('click', function() {
 
 			ChangePanorama('ccc');
 
@@ -2345,7 +2198,7 @@
 		infospotddd1.position.set(-144.65, -3007.49, -3983.45);
 		ddd.add(infospotddd1);
 
-		infospotddd1.addEventListener('click', function () {
+		infospotddd1.addEventListener('click', function() {
 
 			ChangePanorama('eee');
 
@@ -2356,9 +2209,9 @@
 		infospotddd2.visible = false;
 		ddd.add(infospotddd2);
 
-		infospotddd2.addEventListener('click', function () {
+		infospotddd2.addEventListener('click', function() {
 
-			showMedia(1, '/gbrvirtualtour/images/h32.jpg');
+			showMedia(1, '/gbrvirtualtour/images/h32.gif');
 
 		});
 
@@ -2367,9 +2220,9 @@
 		infospotddd3.visible = false;
 		ddd.add(infospotddd3);
 
-		infospotddd3.addEventListener('click', function () {
+		infospotddd3.addEventListener('click', function() {
 
-			showMedia(1, '/gbrvirtualtour/images/h34.jpg');
+			showMedia(1, '/gbrvirtualtour/images/h34.gif');
 
 		});
 
@@ -2377,7 +2230,7 @@
 		infospotddd4.position.set(1.16, -4999.50, -12.67);
 		ddd.add(infospotddd4);
 
-		infospotddd4.addEventListener('click', function () {
+		infospotddd4.addEventListener('click', function() {
 
 			showMedia(1, '/gbrvirtualtour/images/lt3.4.png');
 
@@ -2386,21 +2239,20 @@
 		viewer.add(ddd);
 
 		var eee = new PANOLENS.ImagePanorama("/gbrvirtualtour/panoramas/eee.jpg");
-		eee.addEventListener('progress', function (e) {
+		eee.addEventListener('progress', function(e) {
 			$("#loading").show();
 		});
-		eee.addEventListener('load', function (e) {
+		eee.addEventListener('load', function(e) {
 			$("#loading").fadeOut();
 		});
-		eee.addEventListener('click', function (e) {
-		});
+		eee.addEventListener('click', function(e) {});
 
 
 		var infospoteee0 = new PANOLENS.Infospot(512, hotspotIcons[6].data, true);
 		infospoteee0.position.set(105.90, -2919.53, 4052.49);
 		eee.add(infospoteee0);
 
-		infospoteee0.addEventListener('click', function () {
+		infospoteee0.addEventListener('click', function() {
 
 			ChangePanorama('ddd');
 
@@ -2410,7 +2262,7 @@
 		infospoteee1.position.set(16.07, -3212.10, -3828.89);
 		eee.add(infospoteee1);
 
-		infospoteee1.addEventListener('click', function () {
+		infospoteee1.addEventListener('click', function() {
 
 			ChangePanorama('fff');
 
@@ -2421,9 +2273,9 @@
 		infospoteee2.visible = false;
 		eee.add(infospoteee2);
 
-		infospoteee2.addEventListener('click', function () {
+		infospoteee2.addEventListener('click', function() {
 
-			showMedia(1, '/gbrvirtualtour/images/h33.jpg');
+			showMedia(1, '/gbrvirtualtour/images/h33.gif');
 
 		});
 
@@ -2431,7 +2283,7 @@
 		infospoteee3.position.set(37.42, -4994.46, -135.72);
 		eee.add(infospoteee3);
 
-		infospoteee3.addEventListener('click', function () {
+		infospoteee3.addEventListener('click', function() {
 
 			showMedia(1, '/gbrvirtualtour/images/lt3.5.png');
 
@@ -2440,21 +2292,20 @@
 		viewer.add(eee);
 
 		var fff = new PANOLENS.ImagePanorama("/gbrvirtualtour/panoramas/fff.jpg");
-		fff.addEventListener('progress', function (e) {
+		fff.addEventListener('progress', function(e) {
 			$("#loading").show();
 		});
-		fff.addEventListener('load', function (e) {
+		fff.addEventListener('load', function(e) {
 			$("#loading").fadeOut();
 		});
-		fff.addEventListener('click', function (e) {
-		});
+		fff.addEventListener('click', function(e) {});
 
 
 		var infospotfff0 = new PANOLENS.Infospot(512, hotspotIcons[6].data, true);
 		infospotfff0.position.set(-183.39, -2595.93, 4262.86);
 		fff.add(infospotfff0);
 
-		infospotfff0.addEventListener('click', function () {
+		infospotfff0.addEventListener('click', function() {
 
 			ChangePanorama('eee');
 
@@ -2464,7 +2315,7 @@
 		infospotfff1.position.set(-47.29, -3046.85, -3957.53);
 		fff.add(infospotfff1);
 
-		infospotfff1.addEventListener('click', function () {
+		infospotfff1.addEventListener('click', function() {
 
 			ChangePanorama('ggg');
 
@@ -2475,9 +2326,9 @@
 		infospotfff2.visible = false;
 		fff.add(infospotfff2);
 
-		infospotfff2.addEventListener('click', function () {
+		infospotfff2.addEventListener('click', function() {
 
-			showMedia(1, '/gbrvirtualtour/images/h36.jpg');
+			showMedia(1, '/gbrvirtualtour/images/h36.gif');
 
 		});
 
@@ -2486,9 +2337,9 @@
 		infospotfff3.visible = false;
 		fff.add(infospotfff3);
 
-		infospotfff3.addEventListener('click', function () {
+		infospotfff3.addEventListener('click', function() {
 
-			showMedia(1, '/gbrvirtualtour/images/rsidang.jpg');
+			showMedia(1, '/gbrvirtualtour/images/rsidang.gif');
 
 		});
 
@@ -2496,7 +2347,7 @@
 		infospotfff4.position.set(-27.28, -4997.73, -50.78);
 		fff.add(infospotfff4);
 
-		infospotfff4.addEventListener('click', function () {
+		infospotfff4.addEventListener('click', function() {
 
 			showMedia(1, '/gbrvirtualtour/images/lt3.6.png');
 
@@ -2505,21 +2356,20 @@
 		viewer.add(fff);
 
 		var ggg = new PANOLENS.ImagePanorama("/gbrvirtualtour/panoramas/ggg.jpg");
-		ggg.addEventListener('progress', function (e) {
+		ggg.addEventListener('progress', function(e) {
 			$("#loading").show();
 		});
-		ggg.addEventListener('load', function (e) {
+		ggg.addEventListener('load', function(e) {
 			$("#loading").fadeOut();
 		});
-		ggg.addEventListener('click', function (e) {
-		});
+		ggg.addEventListener('click', function(e) {});
 
 
 		var infospotggg0 = new PANOLENS.Infospot(512, hotspotIcons[6].data, true);
 		infospotggg0.position.set(-320.52, -2997.78, 3981.89);
 		ggg.add(infospotggg0);
 
-		infospotggg0.addEventListener('click', function () {
+		infospotggg0.addEventListener('click', function() {
 
 			ChangePanorama('fff');
 
@@ -2529,7 +2379,7 @@
 		infospotggg1.position.set(-24.66, -3403.49, -3656.30);
 		ggg.add(infospotggg1);
 
-		infospotggg1.addEventListener('click', function () {
+		infospotggg1.addEventListener('click', function() {
 
 			ChangePanorama('hhh');
 
@@ -2540,9 +2390,9 @@
 		infospotggg2.visible = false;
 		ggg.add(infospotggg2);
 
-		infospotggg2.addEventListener('click', function () {
+		infospotggg2.addEventListener('click', function() {
 
-			showMedia(1, '/gbrvirtualtour/images/dosenstatistik(2).jpg');
+			showMedia(1, '/gbrvirtualtour/images/dosenstatistik.gif');
 
 		});
 
@@ -2551,9 +2401,9 @@
 		infospotggg3.visible = false;
 		ggg.add(infospotggg3);
 
-		infospotggg3.addEventListener('click', function () {
+		infospotggg3.addEventListener('click', function() {
 
-			showMedia(1, '/gbrvirtualtour/images/labsisfo.jpg');
+			showMedia(1, '/gbrvirtualtour/images/labsisfo.gif');
 
 		});
 
@@ -2561,7 +2411,7 @@
 		infospotggg4.position.set(45.05, -4987.83, -305.92);
 		ggg.add(infospotggg4);
 
-		infospotggg4.addEventListener('click', function () {
+		infospotggg4.addEventListener('click', function() {
 
 			showMedia(1, '/gbrvirtualtour/images/lt3.7.png');
 
@@ -2570,21 +2420,20 @@
 		viewer.add(ggg);
 
 		var hhh = new PANOLENS.ImagePanorama("/gbrvirtualtour/panoramas/hhh.jpg");
-		hhh.addEventListener('progress', function (e) {
+		hhh.addEventListener('progress', function(e) {
 			$("#loading").show();
 		});
-		hhh.addEventListener('load', function (e) {
+		hhh.addEventListener('load', function(e) {
 			$("#loading").fadeOut();
 		});
-		hhh.addEventListener('click', function (e) {
-		});
+		hhh.addEventListener('click', function(e) {});
 
 
 		var infospothhh0 = new PANOLENS.Infospot(512, hotspotIcons[6].data, true);
 		infospothhh0.position.set(-200.09, -3065.90, 3934.50);
 		hhh.add(infospothhh0);
 
-		infospothhh0.addEventListener('click', function () {
+		infospothhh0.addEventListener('click', function() {
 
 			ChangePanorama('ggg');
 
@@ -2594,7 +2443,7 @@
 		infospothhh1.position.set(347.34, -4126.36, -2793.48);
 		hhh.add(infospothhh1);
 
-		infospothhh1.addEventListener('click', function () {
+		infospothhh1.addEventListener('click', function() {
 
 			ChangePanorama('iii');
 
@@ -2604,7 +2453,7 @@
 		infospothhh2.position.set(-3802.85, -1475.18, -2881.02);
 		hhh.add(infospothhh2);
 
-		infospothhh2.addEventListener('click', function () {
+		infospothhh2.addEventListener('click', function() {
 
 			ChangePanorama('tanggatengahB');
 
@@ -2614,7 +2463,7 @@
 		infospothhh3.position.set(-94.06, -4996.30, -1.11);
 		hhh.add(infospothhh3);
 
-		infospothhh3.addEventListener('click', function () {
+		infospothhh3.addEventListener('click', function() {
 
 			showMedia(1, '/gbrvirtualtour/images/lt3.8.png');
 
@@ -2623,21 +2472,20 @@
 		viewer.add(hhh);
 
 		var iii = new PANOLENS.ImagePanorama("/gbrvirtualtour/panoramas/iii.jpg");
-		iii.addEventListener('progress', function (e) {
+		iii.addEventListener('progress', function(e) {
 			$("#loading").show();
 		});
-		iii.addEventListener('load', function (e) {
+		iii.addEventListener('load', function(e) {
 			$("#loading").fadeOut();
 		});
-		iii.addEventListener('click', function (e) {
-		});
+		iii.addEventListener('click', function(e) {});
 
 
 		var infospotiii0 = new PANOLENS.Infospot(512, hotspotIcons[6].data, true);
 		infospotiii0.position.set(-197.11, -3161.19, 3859.54);
 		iii.add(infospotiii0);
 
-		infospotiii0.addEventListener('click', function () {
+		infospotiii0.addEventListener('click', function() {
 
 			ChangePanorama('hhh');
 
@@ -2647,7 +2495,7 @@
 		infospotiii1.position.set(347.56, -2866.00, -4075.60);
 		iii.add(infospotiii1);
 
-		infospotiii1.addEventListener('click', function () {
+		infospotiii1.addEventListener('click', function() {
 
 			ChangePanorama('jjj');
 
@@ -2658,9 +2506,9 @@
 		infospotiii2.visible = false;
 		iii.add(infospotiii2);
 
-		infospotiii2.addEventListener('click', function () {
+		infospotiii2.addEventListener('click', function() {
 
-			showMedia(1, '/gbrvirtualtour/images/musolawanita.jpg');
+			showMedia(1, '/gbrvirtualtour/images/musolawanita.gif');
 
 		});
 
@@ -2669,9 +2517,9 @@
 		infospotiii3.visible = false;
 		iii.add(infospotiii3);
 
-		infospotiii3.addEventListener('click', function () {
+		infospotiii3.addEventListener('click', function() {
 
-			showMedia(1, '/gbrvirtualtour/images/smartarea.jpg');
+			showMedia(1, '/gbrvirtualtour/images/smrtareamusolalt3.gif');
 
 		});
 
@@ -2679,7 +2527,7 @@
 		infospotiii4.position.set(-8.93, -4997.81, -55.02);
 		iii.add(infospotiii4);
 
-		infospotiii4.addEventListener('click', function () {
+		infospotiii4.addEventListener('click', function() {
 
 			showMedia(1, '/gbrvirtualtour/images/lt3.9.png');
 
@@ -2688,21 +2536,20 @@
 		viewer.add(iii);
 
 		var jjj = new PANOLENS.ImagePanorama("/gbrvirtualtour/panoramas/jjj.jpg");
-		jjj.addEventListener('progress', function (e) {
+		jjj.addEventListener('progress', function(e) {
 			$("#loading").show();
 		});
-		jjj.addEventListener('load', function (e) {
+		jjj.addEventListener('load', function(e) {
 			$("#loading").fadeOut();
 		});
-		jjj.addEventListener('click', function (e) {
-		});
+		jjj.addEventListener('click', function(e) {});
 
 
 		var infospotjjj0 = new PANOLENS.Infospot(512, hotspotIcons[6].data, true);
 		infospotjjj0.position.set(-230.03, -3138.56, 3875.65);
 		jjj.add(infospotjjj0);
 
-		infospotjjj0.addEventListener('click', function () {
+		infospotjjj0.addEventListener('click', function() {
 
 			ChangePanorama('iii');
 
@@ -2712,7 +2559,7 @@
 		infospotjjj1.position.set(173.48, -3523.21, -3537.83);
 		jjj.add(infospotjjj1);
 
-		infospotjjj1.addEventListener('click', function () {
+		infospotjjj1.addEventListener('click', function() {
 
 			ChangePanorama('kkk');
 
@@ -2723,9 +2570,9 @@
 		infospotjjj2.visible = false;
 		jjj.add(infospotjjj2);
 
-		infospotjjj2.addEventListener('click', function () {
+		infospotjjj2.addEventListener('click', function() {
 
-			showMedia(1, '/gbrvirtualtour/images/h37.jpg');
+			showMedia(1, '/gbrvirtualtour/images/h37.gif');
 
 		});
 
@@ -2733,7 +2580,7 @@
 		infospotjjj3.position.set(-206.91, -4990.86, 105.53);
 		jjj.add(infospotjjj3);
 
-		infospotjjj3.addEventListener('click', function () {
+		infospotjjj3.addEventListener('click', function() {
 
 			showMedia(1, '/gbrvirtualtour/images/lt3.10.png');
 
@@ -2742,21 +2589,20 @@
 		viewer.add(jjj);
 
 		var kkk = new PANOLENS.ImagePanorama("/gbrvirtualtour/panoramas/kkk.jpg");
-		kkk.addEventListener('progress', function (e) {
+		kkk.addEventListener('progress', function(e) {
 			$("#loading").show();
 		});
-		kkk.addEventListener('load', function (e) {
+		kkk.addEventListener('load', function(e) {
 			$("#loading").fadeOut();
 		});
-		kkk.addEventListener('click', function (e) {
-		});
+		kkk.addEventListener('click', function(e) {});
 
 
 		var infospotkkk0 = new PANOLENS.Infospot(512, hotspotIcons[6].data, true);
 		infospotkkk0.position.set(10.06, -2892.54, 4075.55);
 		kkk.add(infospotkkk0);
 
-		infospotkkk0.addEventListener('click', function () {
+		infospotkkk0.addEventListener('click', function() {
 
 			ChangePanorama('jjj');
 
@@ -2766,7 +2612,7 @@
 		infospotkkk1.position.set(-174.26, -3317.50, -3727.95);
 		kkk.add(infospotkkk1);
 
-		infospotkkk1.addEventListener('click', function () {
+		infospotkkk1.addEventListener('click', function() {
 
 			ChangePanorama('lll');
 
@@ -2777,9 +2623,9 @@
 		infospotkkk2.visible = false;
 		kkk.add(infospotkkk2);
 
-		infospotkkk2.addEventListener('click', function () {
+		infospotkkk2.addEventListener('click', function() {
 
-			showMedia(1, '/gbrvirtualtour/images/labikel.jpg');
+			showMedia(1, '/gbrvirtualtour/images/labikel.gif');
 
 		});
 
@@ -2787,7 +2633,7 @@
 		infospotkkk3.position.set(8.55, -4999.56, -7.02);
 		kkk.add(infospotkkk3);
 
-		infospotkkk3.addEventListener('click', function () {
+		infospotkkk3.addEventListener('click', function() {
 
 			showMedia(1, '/gbrvirtualtour/images/lt3.11.png');
 
@@ -2796,21 +2642,20 @@
 		viewer.add(kkk);
 
 		var lll = new PANOLENS.ImagePanorama("/gbrvirtualtour/panoramas/lll.jpg");
-		lll.addEventListener('progress', function (e) {
+		lll.addEventListener('progress', function(e) {
 			$("#loading").show();
 		});
-		lll.addEventListener('load', function (e) {
+		lll.addEventListener('load', function(e) {
 			$("#loading").fadeOut();
 		});
-		lll.addEventListener('click', function (e) {
-		});
+		lll.addEventListener('click', function(e) {});
 
 
 		var infospotlll0 = new PANOLENS.Infospot(512, hotspotIcons[6].data, true);
 		infospotlll0.position.set(-178.69, -3063.80, 3937.28);
 		lll.add(infospotlll0);
 
-		infospotlll0.addEventListener('click', function () {
+		infospotlll0.addEventListener('click', function() {
 
 			ChangePanorama('kkk');
 
@@ -2820,7 +2665,7 @@
 		infospotlll1.position.set(3755.42, -3277.30, -359.15);
 		lll.add(infospotlll1);
 
-		infospotlll1.addEventListener('click', function () {
+		infospotlll1.addEventListener('click', function() {
 
 			ChangePanorama('mmm');
 
@@ -2831,9 +2676,9 @@
 		infospotlll2.visible = false;
 		lll.add(infospotlll2);
 
-		infospotlll2.addEventListener('click', function () {
+		infospotlll2.addEventListener('click', function() {
 
-			showMedia(1, '/gbrvirtualtour/images/labfisika.jpg');
+			showMedia(1, '/gbrvirtualtour/images/labfisika.gif');
 
 		});
 
@@ -2842,9 +2687,9 @@
 		infospotlll3.visible = false;
 		lll.add(infospotlll3);
 
-		infospotlll3.addEventListener('click', function () {
+		infospotlll3.addEventListener('click', function() {
 
-			showMedia(1, '/gbrvirtualtour/images/h310.jpg');
+			showMedia(1, '/gbrvirtualtour/images/h310.gif');
 
 		});
 
@@ -2852,7 +2697,7 @@
 		infospotlll4.position.set(182.36, -4990.15, -171.56);
 		lll.add(infospotlll4);
 
-		infospotlll4.addEventListener('click', function () {
+		infospotlll4.addEventListener('click', function() {
 
 			showMedia(1, '/gbrvirtualtour/images/lt2.12.png');
 
@@ -2861,21 +2706,20 @@
 		viewer.add(lll);
 
 		var mmm = new PANOLENS.ImagePanorama("/gbrvirtualtour/panoramas/mmm.jpg");
-		mmm.addEventListener('progress', function (e) {
+		mmm.addEventListener('progress', function(e) {
 			$("#loading").show();
 		});
-		mmm.addEventListener('load', function (e) {
+		mmm.addEventListener('load', function(e) {
 			$("#loading").fadeOut();
 		});
-		mmm.addEventListener('click', function (e) {
-		});
+		mmm.addEventListener('click', function(e) {});
 
 
 		var infospotmmm0 = new PANOLENS.Infospot(512, hotspotIcons[6].data, true);
 		infospotmmm0.position.set(501.79, -3150.15, 3842.06);
 		mmm.add(infospotmmm0);
 
-		infospotmmm0.addEventListener('click', function () {
+		infospotmmm0.addEventListener('click', function() {
 
 			ChangePanorama('lll');
 
@@ -2885,7 +2729,7 @@
 		infospotmmm1.position.set(-2.68, -2449.60, -4354.28);
 		mmm.add(infospotmmm1);
 
-		infospotmmm1.addEventListener('click', function () {
+		infospotmmm1.addEventListener('click', function() {
 
 			ChangePanorama('nnn');
 
@@ -2896,9 +2740,9 @@
 		infospotmmm2.visible = false;
 		mmm.add(infospotmmm2);
 
-		infospotmmm2.addEventListener('click', function () {
+		infospotmmm2.addEventListener('click', function() {
 
-			showMedia(1, '/gbrvirtualtour/images/ruangkontrol.jpg');
+			showMedia(1, '/gbrvirtualtour/images/ruangkontrol.gif');
 
 		});
 
@@ -2907,9 +2751,9 @@
 		infospotmmm3.visible = false;
 		mmm.add(infospotmmm3);
 
-		infospotmmm3.addEventListener('click', function () {
+		infospotmmm3.addEventListener('click', function() {
 
-			showMedia(1, '/gbrvirtualtour/images/ruangkompterb.jpg');
+			showMedia(1, '/gbrvirtualtour/images/ruangkompterb.gif');
 
 		});
 
@@ -2917,7 +2761,7 @@
 		infospotmmm4.position.set(-25.18, -4999.01, -0.13);
 		mmm.add(infospotmmm4);
 
-		infospotmmm4.addEventListener('click', function () {
+		infospotmmm4.addEventListener('click', function() {
 
 			showMedia(1, '/gbrvirtualtour/images/lt3.13.png');
 
@@ -2926,21 +2770,20 @@
 		viewer.add(mmm);
 
 		var nnn = new PANOLENS.ImagePanorama("/gbrvirtualtour/panoramas/nnn.jpg");
-		nnn.addEventListener('progress', function (e) {
+		nnn.addEventListener('progress', function(e) {
 			$("#loading").show();
 		});
-		nnn.addEventListener('load', function (e) {
+		nnn.addEventListener('load', function(e) {
 			$("#loading").fadeOut();
 		});
-		nnn.addEventListener('click', function (e) {
-		});
+		nnn.addEventListener('click', function(e) {});
 
 
 		var infospotnnn0 = new PANOLENS.Infospot(512, hotspotIcons[6].data, true);
 		infospotnnn0.position.set(9.23, -3268.54, 3781.85);
 		nnn.add(infospotnnn0);
 
-		infospotnnn0.addEventListener('click', function () {
+		infospotnnn0.addEventListener('click', function() {
 
 			ChangePanorama('mmm');
 
@@ -2950,7 +2793,7 @@
 		infospotnnn1.position.set(-140.23, -3844.04, -3186.60);
 		nnn.add(infospotnnn1);
 
-		infospotnnn1.addEventListener('click', function () {
+		infospotnnn1.addEventListener('click', function() {
 
 			ChangePanorama('ooo');
 
@@ -2961,9 +2804,9 @@
 		infospotnnn2.visible = false;
 		nnn.add(infospotnnn2);
 
-		infospotnnn2.addEventListener('click', function () {
+		infospotnnn2.addEventListener('click', function() {
 
-			showMedia(1, '/gbrvirtualtour/images/ruangkomputera.jpg');
+			showMedia(1, '/gbrvirtualtour/images/ruangkomputera.gif');
 
 		});
 
@@ -2971,7 +2814,7 @@
 		infospotnnn3.position.set(-26.37, -4998.96, 1.43);
 		nnn.add(infospotnnn3);
 
-		infospotnnn3.addEventListener('click', function () {
+		infospotnnn3.addEventListener('click', function() {
 
 			showMedia(1, '/gbrvirtualtour/images/lt3.14.png');
 
@@ -2980,42 +2823,32 @@
 		viewer.add(nnn);
 
 		var ooo = new PANOLENS.ImagePanorama("/gbrvirtualtour/panoramas/ooo.jpg");
-		ooo.addEventListener('progress', function (e) {
+		ooo.addEventListener('progress', function(e) {
 			$("#loading").show();
 		});
-		ooo.addEventListener('load', function (e) {
+		ooo.addEventListener('load', function(e) {
 			$("#loading").fadeOut();
 		});
-		ooo.addEventListener('click', function (e) {
-		});
+		ooo.addEventListener('click', function(e) {});
 
 
 		var infospotooo0 = new PANOLENS.Infospot(512, hotspotIcons[6].data, true);
 		infospotooo0.position.set(450.63, -3160.53, 3841.89);
 		ooo.add(infospotooo0);
 
-		infospotooo0.addEventListener('click', function () {
+		infospotooo0.addEventListener('click', function() {
 
 			ChangePanorama('nnn');
 
 		});
 
-		var infospotooo1 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
-		infospotooo1.position.set(4559.51, 1956.09, -575.62);
-		infospotooo1.visible = false;
-		ooo.add(infospotooo1);
-
-		infospotooo1.addEventListener('click', function () {
-
-			showMedia(1, '/gbrvirtualtour/images/h39.jpg');
-
-		});
+		
 
 		var infospotooo2 = new PANOLENS.Infospot(512, hotspotIcons[11].data, true);
 		infospotooo2.position.set(107.13, -4995.25, -55.64);
 		ooo.add(infospotooo2);
 
-		infospotooo2.addEventListener('click', function () {
+		infospotooo2.addEventListener('click', function() {
 
 			showMedia(1, '/gbrvirtualtour/images/lt3.15.png');
 
@@ -3024,21 +2857,20 @@
 		viewer.add(ooo);
 
 		var tanggakiriB = new PANOLENS.ImagePanorama("/gbrvirtualtour/panoramas/tanggakiriB.jpg");
-		tanggakiriB.addEventListener('progress', function (e) {
+		tanggakiriB.addEventListener('progress', function(e) {
 			$("#loading").show();
 		});
-		tanggakiriB.addEventListener('load', function (e) {
+		tanggakiriB.addEventListener('load', function(e) {
 			$("#loading").fadeOut();
 		});
-		tanggakiriB.addEventListener('click', function (e) {
-		});
+		tanggakiriB.addEventListener('click', function(e) {});
 
 
 		var infospottanggakiriB0 = new PANOLENS.Infospot(512, hotspotIcons[6].data, true);
 		infospottanggakiriB0.position.set(4963.27, 333.40, -450.93);
 		tanggakiriB.add(infospottanggakiriB0);
 
-		infospottanggakiriB0.addEventListener('click', function () {
+		infospottanggakiriB0.addEventListener('click', function() {
 
 			ChangePanorama('aaa');
 
@@ -3048,7 +2880,7 @@
 		infospottanggakiriB1.position.set(4235.76, -2069.01, 1638.02);
 		tanggakiriB.add(infospottanggakiriB1);
 
-		infospottanggakiriB1.addEventListener('click', function () {
+		infospottanggakiriB1.addEventListener('click', function() {
 
 			ChangePanorama('aa');
 
@@ -3058,7 +2890,7 @@
 		infospottanggakiriB2.position.set(162.88, -4992.29, 108.97);
 		tanggakiriB.add(infospottanggakiriB2);
 
-		infospottanggakiriB2.addEventListener('click', function () {
+		infospottanggakiriB2.addEventListener('click', function() {
 
 			showMedia(1, '/gbrvirtualtour/images/tanggakiri2-3.png');
 
@@ -3067,21 +2899,20 @@
 		viewer.add(tanggakiriB);
 
 		var tanggatengahB = new PANOLENS.ImagePanorama("/gbrvirtualtour/panoramas/tanggatengahB.jpg");
-		tanggatengahB.addEventListener('progress', function (e) {
+		tanggatengahB.addEventListener('progress', function(e) {
 			$("#loading").show();
 		});
-		tanggatengahB.addEventListener('load', function (e) {
+		tanggatengahB.addEventListener('load', function(e) {
 			$("#loading").fadeOut();
 		});
-		tanggatengahB.addEventListener('click', function (e) {
-		});
+		tanggatengahB.addEventListener('click', function(e) {});
 
 
 		var infospottanggatengahB0 = new PANOLENS.Infospot(512, hotspotIcons[6].data, true);
 		infospottanggatengahB0.position.set(4947.46, 350.24, -593.60);
 		tanggatengahB.add(infospottanggatengahB0);
 
-		infospottanggatengahB0.addEventListener('click', function () {
+		infospottanggatengahB0.addEventListener('click', function() {
 
 			ChangePanorama('hhh');
 
@@ -3091,7 +2922,7 @@
 		infospottanggatengahB1.position.set(4475.95, -2037.24, 864.36);
 		tanggatengahB.add(infospottanggatengahB1);
 
-		infospottanggatengahB1.addEventListener('click', function () {
+		infospottanggatengahB1.addEventListener('click', function() {
 
 			ChangePanorama('hh');
 
@@ -3101,7 +2932,7 @@
 		infospottanggatengahB2.position.set(-31.64, -4998.38, -26.38);
 		tanggatengahB.add(infospottanggatengahB2);
 
-		infospottanggatengahB2.addEventListener('click', function () {
+		infospottanggatengahB2.addEventListener('click', function() {
 
 			showMedia(1, '/gbrvirtualtour/images/tanggatengan2-3.png');
 
@@ -3109,7 +2940,9 @@
 
 		viewer.add(tanggatengahB);
 
-		$(document).ready(function () { ChangePanorama('gbkananhight'); });
+		$(document).ready(function() {
+			ChangePanorama('gbkananhight');
+		});
 
 
 		/*panoramas-end*/
@@ -3117,7 +2950,7 @@
 
 		function hideTemp() {
 			$("#tmp").fadeOut();
-			setTimeout(function () {
+			setTimeout(function() {
 				$("#tmpcontent").html("");
 			}, 1000);
 		}
@@ -3150,11 +2983,10 @@
 
 
 		//Update Callback
-		viewer.addUpdateCallback(function () {
+		viewer.addUpdateCallback(function() {
 
 			/*viewerupdatecallback*/
-			if (viewer.panorama == gbkananhight) {
-			}
+			if (viewer.panorama == gbkananhight) {}
 
 			if (viewer.panorama == h) {
 				ShowMyInfospot(infospoth4, 'infospoth4');
@@ -3194,14 +3026,11 @@
 				ShowMyInfospot(infospota2, 'infospota2');
 			}
 
-			if (viewer.panorama == gbkirihight) {
-			}
+			if (viewer.panorama == gbkirihight) {}
 
-			if (viewer.panorama == tuguhight) {
-			}
+			if (viewer.panorama == tuguhight) {}
 
-			if (viewer.panorama == tanggakiriA) {
-			}
+			if (viewer.panorama == tanggakiriA) {}
 
 			if (viewer.panorama == aa) {
 				ShowMyInfospot(infospotaa2, 'infospotaa2');
@@ -3244,6 +3073,7 @@
 
 			if (viewer.panorama == jj) {
 				ShowMyInfospot(infospotjj2, 'infospotjj2');
+				ShowMyInfospot(infospotjj4, 'infospotjj4');
 			}
 
 			if (viewer.panorama == kk) {
@@ -3268,8 +3098,7 @@
 				ShowMyInfospot(infospotoo1, 'infospotoo1');
 			}
 
-			if (viewer.panorama == tanggatengahA) {
-			}
+			if (viewer.panorama == tanggatengahA) {}
 
 			if (viewer.panorama == aaa) {
 				ShowMyInfospot(infospotaaa2, 'infospotaaa2');
@@ -3303,8 +3132,7 @@
 				ShowMyInfospot(infospotggg3, 'infospotggg3');
 			}
 
-			if (viewer.panorama == hhh) {
-			}
+			if (viewer.panorama == hhh) {}
 
 			if (viewer.panorama == iii) {
 				ShowMyInfospot(infospotiii2, 'infospotiii2');
@@ -3333,15 +3161,11 @@
 				ShowMyInfospot(infospotnnn2, 'infospotnnn2');
 			}
 
-			if (viewer.panorama == ooo) {
-				ShowMyInfospot(infospotooo1, 'infospotooo1');
-			}
+			
 
-			if (viewer.panorama == tanggakiriB) {
-			}
+			if (viewer.panorama == tanggakiriB) {}
 
-			if (viewer.panorama == tanggatengahB) {
-			}
+			if (viewer.panorama == tanggatengahB) {}
 			/*viewerupdatecallback-end*/
 
 
@@ -3350,6 +3174,7 @@
 
 
 		var hotspotsvisible = true;
+
 		function ShowMyInfospot(hs, elid) {
 			var thehs = toScreenPosition(hs);
 			if (thehs.z < 1) {
@@ -3377,7 +3202,7 @@
 			vector.project(viewer.camera);
 
 			vector.x = (vector.x * widthHalf) + widthHalf;
-			vector.y = - (vector.y * heightHalf) + heightHalf;
+			vector.y = -(vector.y * heightHalf) + heightHalf;
 
 
 			return {
@@ -3389,15 +3214,16 @@
 		};
 
 		var currentPanorama;
+
 		function ChangePanorama(panorama) {
 			currentPanorama = panorama;
 			HideInfospots();
 			//$("#loading").fadeIn();
 			//$(".customhotspot").fadeOut();
-			setTimeout(function () {
+			setTimeout(function() {
 				viewer.setPanorama(window[panorama]);
 			}, 500);
-			setTimeout(function () {
+			setTimeout(function() {
 				$("#" + panorama).fadeIn();
 			}, 1500);
 
@@ -3409,27 +3235,27 @@
 
 		/*customjs*/
 		function chclickinfospoth4() {
-			showMedia(1, '/gbrvirtualtour/images/tamu.jpg');
+			showMedia(1, '/gbrvirtualtour/images/tamu.gif');
 
 		}
 
 		function chclickinfospoti1() {
-			showMedia(1, '/gbrvirtualtour/images/baca.jpg');
+			showMedia(1, '/gbrvirtualtour/images/baca.gif');
 
 		}
 
 		function chclickinfospotg2() {
-			showMedia(1, '/gbrvirtualtour/images/kepegawaian.jpg');
+			showMedia(1, '/gbrvirtualtour/images/kepegawaian.gif');
 
 		}
 
 		function chclickinfospotf2() {
-			showMedia(1, '/gbrvirtualtour/images/umper.jpg');
+			showMedia(1, '/gbrvirtualtour/images/umper.gif');
 
 		}
 
 		function chclickinfospotf3() {
-			showMedia(1, '/gbrvirtualtour/images/akademik.jpg');
+			showMedia(1, '/gbrvirtualtour/images/akademik.gif');
 
 		}
 
@@ -3439,17 +3265,17 @@
 		}
 
 		function chclickinfospotd2() {
-			showMedia(1, '/gbrvirtualtour/images/h14.jpg');
+			showMedia(1, '/gbrvirtualtour/images/h14.gif');
 
 		}
 
 		function chclickinfospotc2() {
-			showMedia(1, '/gbrvirtualtour/images/h12.jpg');
+			showMedia(1, '/gbrvirtualtour/images/h12.gif');
 
 		}
 
 		function chclickinfospotc3() {
-			showMedia(1, '/gbrvirtualtour/images/h11.jpg');
+			showMedia(1, '/gbrvirtualtour/images/h11.gif');
 
 		}
 
@@ -3459,17 +3285,17 @@
 		}
 
 		function chclickinfospota2() {
-			showMedia(1, '/gbrvirtualtour/images/cswanita.jpg');
+			showMedia(1, '/gbrvirtualtour/images/cswanita.gif');
 
 		}
 
 		function chclickinfospotaa2() {
-			showMedia(1, '/gbrvirtualtour/images/ruangtik.jpg');
+			showMedia(1, '/gbrvirtualtour/images/ruangtik.gif');
 
 		}
 
 		function chclickinfospotbb2() {
-			showMedia(1, '/gbrvirtualtour/images/smartarea.jpg');
+			showMedia(1, '/gbrvirtualtour/images/smrtareawclt2.gif');
 
 		}
 
@@ -3479,112 +3305,114 @@
 		}
 
 		function chclickinfospotcc2() {
-			showMedia(1, '/gbrvirtualtour/images/h22.jpg');
+			showMedia(1, '/gbrvirtualtour/images/h22.gif');
 
 		}
 
 		function chclickinfospotcc3() {
-			showMedia(1, '/gbrvirtualtour/images/h24.jpg');
+			showMedia(1, '/gbrvirtualtour/images/h24.gif');
 
 		}
 
 		function chclickinfospotdd2() {
-			showMedia(1, '/gbrvirtualtour/images/dosenkimia.jpg');
+			showMedia(1, '/gbrvirtualtour/images/dosenkimia.gif');
 
 		}
 
 		function chclickinfospotee2() {
-			showMedia(1, '/gbrvirtualtour/images/dosensisfo.jpg');
+			showMedia(1, '/gbrvirtualtour/images/dosensisfo.gif');
 
 		}
 
 		function chclickinfospotee3() {
-			showMedia(1, '/gbrvirtualtour/images/h23.jpg');
+			showMedia(1, '/gbrvirtualtour/images/h23.gif');
 
 		}
 
 		function chclickinfospotee4() {
-			showMedia(1, '/gbrvirtualtour/images/h26.jpg');
+			showMedia(1, '/gbrvirtualtour/images/h26.gif');
 
 		}
 
 		function chclickinfospotee5() {
-			showMedia(1, '/gbrvirtualtour/images/h28.jpg');
+			showMedia(1, '/gbrvirtualtour/images/h28.gif');
 
 		}
 
 		function chclickinfospotfg2() {
-			showMedia(1, '/gbrvirtualtour/images/h210.jpg');
+			showMedia(1, '/gbrvirtualtour/images/h210.gif');
 
 		}
 
 		function chclickinfospotfg3() {
-			showMedia(1, '/gbrvirtualtour/images/ruangjurusanmtk.jpg');
+			showMedia(1, '/gbrvirtualtour/images/ruangjurusanmtk.gif');
 
 		}
 
 		function chclickinfospothh2() {
-			showMedia(1, '/gbrvirtualtour/images/drharlia.jpg');
+			showMedia(1, '/gbrvirtualtour/images/drharlia.gif');
 
 		}
 
 		function chclickinfospotii2() {
-			showMedia(1, '/gbrvirtualtour/images/musolapria.jpg');
+			showMedia(1, '/gbrvirtualtour/images/musolapria.gif');
 
 		}
 
 		function chclickinfospotii3() {
-			showMedia(1, '/gbrvirtualtour/images/smartarea.jpg');
+			showMedia(1, '/gbrvirtualtour/images/smrtareamusolalt2.gif');
 
 		}
 
 		function chclickinfospotjj2() {
-			showMedia(1, '/gbrvirtualtour/images/keuangan.jpg');
+			showMedia(1, '/gbrvirtualtour/images/keuangan.gif');
 
 		}
-
+		function chclickinfospotjj4() {
+				showMedia(1, '/gbrvirtualtour/images/simposium.gif');
+			}
 		function chclickinfospotkk2() {
-			showMedia(1, '/gbrvirtualtour/images/senat.jpg');
+			showMedia(1, '/gbrvirtualtour/images/senat.gif');
 
 		}
 
 		function chclickinfospotll2() {
-			showMedia(1, '/gbrvirtualtour/images/dekan.jpg');
+			showMedia(1, '/gbrvirtualtour/images/dekan.gif');
 
 		}
 
 		function chclickinfospotll3() {
-			showMedia(1, '/gbrvirtualtour/images/dosenikel.jpg');
+			showMedia(1, '/gbrvirtualtour/images/dosenikel.gif');
 
 		}
 
 		function chclickinfospotll4() {
-			showMedia(1, '/gbrvirtualtour/images/dosenmatematika.jpg');
+			showMedia(1, '/gbrvirtualtour/images/dosenmatematika.gif');
 
 		}
 
 		function chclickinfospotmm2() {
-			showMedia(1, '/gbrvirtualtour/images/wakildekan.jpg');
+			showMedia(1, '/gbrvirtualtour/images/wakildekan.gif');
 
 		}
 
 		function chclickinfospotnn2() {
-			showMedia(1, '/gbrvirtualtour/images/jurusanfisika.jpg');
+			showMedia(1, '/gbrvirtualtour/images/jurusanfisika.gif');
 
 		}
 
 		function chclickinfospotoo1() {
-			showMedia(1, '/gbrvirtualtour/images/drtamrin.jpg');
+			showMedia(1, '/gbrvirtualtour/images/drtamrin.gif');
 
 		}
 
 		function chclickinfospotaaa2() {
-			showMedia(1, '/gbrvirtualtour/images/ruangcic.jpg');
+			showMedia(1, '/gbrvirtualtour/images/ruangcic.gif');
 
 		}
 
 		function chclickinfospotbbb2() {
-			showMedia(1, '/gbrvirtualtour/images/smartarea.jpg');
+			showMedia(1, '/gbrvirtualtour/images/smrtareawclt3.gif');
 
 		}
 
@@ -3594,217 +3422,211 @@
 		}
 
 		function chclickinfospotccc2() {
-			showMedia(1, '/gbrvirtualtour/images/h31.jpg');
+			showMedia(1, '/gbrvirtualtour/images/h31.gif');
 
 		}
 
 		function chclickinfospotddd2() {
-			showMedia(1, '/gbrvirtualtour/images/h32.jpg');
+			showMedia(1, '/gbrvirtualtour/images/h32.gif');
 
 		}
 
 		function chclickinfospotddd3() {
-			showMedia(1, '/gbrvirtualtour/images/h34.jpg');
+			showMedia(1, '/gbrvirtualtour/images/h34.gif');
 
 		}
 
 		function chclickinfospoteee2() {
-			showMedia(1, '/gbrvirtualtour/images/h33.jpg');
+			showMedia(1, '/gbrvirtualtour/images/h33.gif');
 
 		}
 
 		function chclickinfospotfff2() {
-			showMedia(1, '/gbrvirtualtour/images/h36.jpg');
+			showMedia(1, '/gbrvirtualtour/images/h36.gif');
 
 		}
 
 		function chclickinfospotfff3() {
-			showMedia(1, '/gbrvirtualtour/images/rsidang.jpg');
+			showMedia(1, '/gbrvirtualtour/images/rsidang.gif');
 
 		}
 
 		function chclickinfospotggg2() {
-			showMedia(1, '/gbrvirtualtour/images/dosenstatistik(2).jpg');
+			showMedia(1, '/gbrvirtualtour/images/dosenstatistik.gif');
 
 		}
 
 		function chclickinfospotggg3() {
-			showMedia(1, '/gbrvirtualtour/images/labsisfo.jpg');
+			showMedia(1, '/gbrvirtualtour/images/labsisfo.gif');
 
 		}
 
 		function chclickinfospotiii2() {
-			showMedia(1, '/gbrvirtualtour/images/musolawanita.jpg');
+			showMedia(1, '/gbrvirtualtour/images/musolawanita.gif');
 
 		}
 
 		function chclickinfospotiii3() {
-			showMedia(1, '/gbrvirtualtour/images/smartarea.jpg');
+			showMedia(1, '/gbrvirtualtour/images/smrtareamusolalt3.gif');
 
 		}
 
 		function chclickinfospotjjj2() {
-			showMedia(1, '/gbrvirtualtour/images/h37.jpg');
+			showMedia(1, '/gbrvirtualtour/images/h37.gif');
 
 		}
 
 		function chclickinfospotkkk2() {
-			showMedia(1, '/gbrvirtualtour/images/labikel.jpg');
+			showMedia(1, '/gbrvirtualtour/images/labikel.gif');
 
 		}
 
 		function chclickinfospotlll2() {
-			showMedia(1, '/gbrvirtualtour/images/labfisika.jpg');
+			showMedia(1, '/gbrvirtualtour/images/labfisika.gif');
 
 		}
 
 		function chclickinfospotlll3() {
-			showMedia(1, '/gbrvirtualtour/images/h310.jpg');
+			showMedia(1, '/gbrvirtualtour/images/h310.gif');
 
 		}
 
 		function chclickinfospotmmm2() {
-			showMedia(1, '/gbrvirtualtour/images/ruangkontrol.jpg');
+			showMedia(1, '/gbrvirtualtour/images/ruangkontrol.gif');
 
 		}
 
 		function chclickinfospotmmm3() {
-			showMedia(1, '/gbrvirtualtour/images/ruangkompterb.jpg');
+			showMedia(1, '/gbrvirtualtour/images/ruangkompterb.gif');
 
 		}
 
 		function chclickinfospotnnn2() {
-			showMedia(1, '/gbrvirtualtour/images/ruangkomputera.jpg');
+			showMedia(1, '/gbrvirtualtour/images/ruangkomputera.gif');
 
 		}
 
-		function chclickinfospotooo1() {
-			showMedia(1, '/gbrvirtualtour/images/h39.jpg');
-
-		}
+		
 		/*customjs-end*/
 
 		/*nav*/
-		document.getElementById("lt1-1").addEventListener('click', function () {
+		document.getElementById("lt1-1").addEventListener('click', function() {
 			ChangePanorama('a');
 		});
-		document.getElementById("lt1-2").addEventListener('click', function () {
+		document.getElementById("lt1-2").addEventListener('click', function() {
 			ChangePanorama('b');
 		});
-		document.getElementById("lt1-3").addEventListener('click', function () {
+		document.getElementById("lt1-3").addEventListener('click', function() {
 			ChangePanorama('c');
 		});
-		document.getElementById("lt1-4").addEventListener('click', function () {
+		document.getElementById("lt1-4").addEventListener('click', function() {
 			ChangePanorama('d');
 		});
-		document.getElementById("lt1-5").addEventListener('click', function () {
+		document.getElementById("lt1-5").addEventListener('click', function() {
 			ChangePanorama('e');
 		});
-		document.getElementById("lt1-6").addEventListener('click', function () {
+		document.getElementById("lt1-6").addEventListener('click', function() {
 			ChangePanorama('f');
 		});
-		document.getElementById("lt1-7").addEventListener('click', function () {
+		document.getElementById("lt1-7").addEventListener('click', function() {
 			ChangePanorama('g');
 		});
-		document.getElementById("lt1-8").addEventListener('click', function () {
+		document.getElementById("lt1-8").addEventListener('click', function() {
 			ChangePanorama('h');
 		});
-		document.getElementById("lt1-9").addEventListener('click', function () {
+		document.getElementById("lt1-9").addEventListener('click', function() {
 			ChangePanorama('i');
 		});
 
 
-		document.getElementById("lt2-1").addEventListener('click', function () {
+		document.getElementById("lt2-1").addEventListener('click', function() {
 			ChangePanorama('aa');
 		});
-		document.getElementById("lt2-2").addEventListener('click', function () {
+		document.getElementById("lt2-2").addEventListener('click', function() {
 			ChangePanorama('bb');
 		});
-		document.getElementById("lt2-3").addEventListener('click', function () {
+		document.getElementById("lt2-3").addEventListener('click', function() {
 			ChangePanorama('cc');
 		});
-		document.getElementById("lt2-4").addEventListener('click', function () {
+		document.getElementById("lt2-4").addEventListener('click', function() {
 			ChangePanorama('dd');
 		});
-		document.getElementById("lt2-5").addEventListener('click', function () {
+		document.getElementById("lt2-5").addEventListener('click', function() {
 			ChangePanorama('ee');
 		});
-		document.getElementById("lt2-6.7").addEventListener('click', function () {
+		document.getElementById("lt2-6.7").addEventListener('click', function() {
 			ChangePanorama('fg');
 		});
-		document.getElementById("lt2-8").addEventListener('click', function () {
+		document.getElementById("lt2-8").addEventListener('click', function() {
 			ChangePanorama('hh');
 		});
-		document.getElementById("lt2-9").addEventListener('click', function () {
+		document.getElementById("lt2-9").addEventListener('click', function() {
 			ChangePanorama('ii');
 		});
-		document.getElementById("lt2-10").addEventListener('click', function () {
+		document.getElementById("lt2-10").addEventListener('click', function() {
 			ChangePanorama('jj');
 		});
-		document.getElementById("lt2-11").addEventListener('click', function () {
+		document.getElementById("lt2-11").addEventListener('click', function() {
 			ChangePanorama('kk');
 		});
-		document.getElementById("lt2-12").addEventListener('click', function () {
+		document.getElementById("lt2-12").addEventListener('click', function() {
 			ChangePanorama('ll');
 		});
-		document.getElementById("lt2-13").addEventListener('click', function () {
+		document.getElementById("lt2-13").addEventListener('click', function() {
 			ChangePanorama('mm');
 		});
-		document.getElementById("lt2-14").addEventListener('click', function () {
+		document.getElementById("lt2-14").addEventListener('click', function() {
 			ChangePanorama('nn');
 		});
-		document.getElementById("lt2-15").addEventListener('click', function () {
+		document.getElementById("lt2-15").addEventListener('click', function() {
 			ChangePanorama('oo');
 		});
 
 
-		document.getElementById("lt3-1").addEventListener('click', function () {
+		document.getElementById("lt3-1").addEventListener('click', function() {
 			ChangePanorama('aaa');
 		});
-		document.getElementById("lt3-2").addEventListener('click', function () {
+		document.getElementById("lt3-2").addEventListener('click', function() {
 			ChangePanorama('bbb');
 		});
-		document.getElementById("lt3-3").addEventListener('click', function () {
+		document.getElementById("lt3-3").addEventListener('click', function() {
 			ChangePanorama('ccc');
 		});
-		document.getElementById("lt3-4").addEventListener('click', function () {
+		document.getElementById("lt3-4").addEventListener('click', function() {
 			ChangePanorama('ddd');
 		});
-		document.getElementById("lt3-5").addEventListener('click', function () {
+		document.getElementById("lt3-5").addEventListener('click', function() {
 			ChangePanorama('eee');
 		});
-		document.getElementById("lt3-6").addEventListener('click', function () {
+		document.getElementById("lt3-6").addEventListener('click', function() {
 			ChangePanorama('fff');
 		});
-		document.getElementById("lt3-7").addEventListener('click', function () {
+		document.getElementById("lt3-7").addEventListener('click', function() {
 			ChangePanorama('ggg');
 		});
-		
-		document.getElementById("lt3-9").addEventListener('click', function () {
+
+		document.getElementById("lt3-9").addEventListener('click', function() {
 			ChangePanorama('iii');
 		});
-		document.getElementById("lt3-10").addEventListener('click', function () {
+		document.getElementById("lt3-10").addEventListener('click', function() {
 			ChangePanorama('jjj');
 		});
-		document.getElementById("lt3-11").addEventListener('click', function () {
+		document.getElementById("lt3-11").addEventListener('click', function() {
 			ChangePanorama('kkk');
 		});
-		document.getElementById("lt3-12").addEventListener('click', function () {
+		document.getElementById("lt3-12").addEventListener('click', function() {
 			ChangePanorama('lll');
 		});
-		document.getElementById("lt3-13").addEventListener('click', function () {
+		document.getElementById("lt3-13").addEventListener('click', function() {
 			ChangePanorama('mmm');
 		});
-		document.getElementById("lt3-14").addEventListener('click', function () {
+		document.getElementById("lt3-14").addEventListener('click', function() {
 			ChangePanorama('nnn');
 		});
-		document.getElementById("lt3-15").addEventListener('click', function () {
-			ChangePanorama('ooo');
-		});
-		document.getElementById("tugu").addEventListener('click', function () {
+		
+		document.getElementById("tugu").addEventListener('click', function() {
 			ChangePanorama('tuguhight');
 		});
-
 	</script>
 </body>
 

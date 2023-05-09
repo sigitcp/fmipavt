@@ -173,7 +173,7 @@
 											class="btn btn-primary btn-block mb-2"
 											tabindex="0"
 										>
-											R. laboratorium mikro biologi
+											R. laboratorium mikrobiologi
 										</button>
 									</td>
 								</tr>
@@ -321,18 +321,7 @@
 										</button>
 									</td>
 								</tr>
-								<tr>
-									<td>
-										<button
-											type="button"
-											id="gl10"
-											class="btn btn-primary btn-block mb-2"
-											tabindex="0"
-										>
-											D2
-										</button>
-									</td>
-								</tr>
+								
 								<tr>
 									<td>
 										<button
@@ -820,7 +809,7 @@
 			gldalam.add(infospotgldalam1);
 
 			infospotgldalam1.addEventListener("click", function () {
-				showMedia(1, "/glmvirtualtour/images/jurusanbio.jpg");
+				showMedia(1, "/glmvirtualtour/images/jurusanbio.gif");
 			});
 
 			var infospotgldalam2 = new PANOLENS.Infospot(
@@ -833,7 +822,7 @@
 			gldalam.add(infospotgldalam2);
 
 			infospotgldalam2.addEventListener("click", function () {
-				showMedia(1, "/glmvirtualtour/images/dosenbio.jpg");
+				showMedia(1, "/glmvirtualtour/images/dosenbio.gif");
 			});
 
 			var infospotgldalam3 = new PANOLENS.Infospot(
@@ -858,7 +847,7 @@
 			gldalam.add(infospotgldalam4);
 
 			infospotgldalam4.addEventListener("click", function () {
-				showMedia(1, "/glmvirtualtour/images/kimia.jpg");
+				showMedia(1, "/glmvirtualtour/images/kimia.gif");
 			});
 
 			viewer.add(gldalam);
@@ -921,7 +910,7 @@
 			b.add(infospotb2);
 
 			infospotb2.addEventListener("click", function () {
-				showMedia(1, "/glmvirtualtour/images/biologi.jpg");
+				showMedia(1, "/glmvirtualtour/images/biologi.gif");
 			});
 
 			var infospotb3 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
@@ -930,7 +919,7 @@
 			b.add(infospotb3);
 
 			infospotb3.addEventListener("click", function () {
-				showMedia(1, "/glmvirtualtour/images/ekologi.jpg");
+				showMedia(1, "/glmvirtualtour/images/ekologi.gif");
 			});
 
 			var infospotb4 = new PANOLENS.Infospot(512, hotspotIcons[11].data, true);
@@ -974,7 +963,7 @@
 			c.add(infospotc2);
 
 			infospotc2.addEventListener("click", function () {
-				showMedia(1, "/glmvirtualtour/images/kulturjaringan.jpg");
+				showMedia(1, "/glmvirtualtour/images/kulturjaringan.gif");
 			});
 
 			var infospotc3 = new PANOLENS.Infospot(512, hotspotIcons[11].data, true);
@@ -1018,7 +1007,7 @@
 			d.add(infospotd2);
 
 			infospotd2.addEventListener("click", function () {
-				showMedia(1, "/glmvirtualtour/images/mikro.jpg");
+				showMedia(1, "/glmvirtualtour/images/mikro.gif");
 			});
 
 			var infospotd3 = new PANOLENS.Infospot(512, hotspotIcons[11].data, true);
@@ -1062,7 +1051,7 @@
 			e.add(infospote2);
 
 			infospote2.addEventListener("click", function () {
-				showMedia(1, "/glmvirtualtour/images/c1.jpg");
+				showMedia(1, "/glmvirtualtour/images/c1.gif");
 			});
 
 			var infospote3 = new PANOLENS.Infospot(512, hotspotIcons[11].data, true);
@@ -1106,7 +1095,7 @@
 			f.add(infospotf2);
 
 			infospotf2.addEventListener("click", function () {
-				showMedia(1, "/glmvirtualtour/images/kimiaorganik.jpg");
+				showMedia(1, "/glmvirtualtour/images/kimiaorganik.gif");
 			});
 
 			var infospotf3 = new PANOLENS.Infospot(512, hotspotIcons[11].data, true);
@@ -1158,7 +1147,7 @@
 			g.add(infospotg3);
 
 			infospotg3.addEventListener("click", function () {
-				showMedia(1, "/glmvirtualtour/images/bem.jpg");
+				showMedia(1, "/glmvirtualtour/images/bem.gif");
 			});
 
 			var infospotg4 = new PANOLENS.Infospot(512, hotspotIcons[11].data, true);
@@ -1175,7 +1164,7 @@
 			g.add(infospotg5);
 
 			infospotg5.addEventListener("click", function () {
-				showMedia(1, "/glmvirtualtour/images/c2.jpg");
+				showMedia(1, "/glmvirtualtour/images/c2.gif");
 			});
 
 			viewer.add(g);
@@ -1255,7 +1244,7 @@
 			gb.add(infospotgb2);
 
 			infospotgb2.addEventListener("click", function () {
-				showMedia(1, "/glmvirtualtour/images/hima.jpg");
+				showMedia(1, "/glmvirtualtour/images/hima.gif");
 			});
 
 			var infospotgb3 = new PANOLENS.Infospot(512, hotspotIcons[11].data, true);
@@ -1299,7 +1288,7 @@
 			gc.add(infospotgc2);
 
 			infospotgc2.addEventListener("click", function () {
-				showMedia(1, "/glmvirtualtour/images/kimiab.jpg");
+				showMedia(1, "/glmvirtualtour/images/kimiab.gif");
 			});
 
 			var infospotgc3 = new PANOLENS.Infospot(512, hotspotIcons[11].data, true);
@@ -1343,7 +1332,7 @@
 			gd.add(infospotgd2);
 
 			infospotgd2.addEventListener("click", function () {
-				showMedia(1, "/glmvirtualtour/images/sidang.jpg");
+				showMedia(1, "/glmvirtualtour/images/sidang.gif");
 			});
 
 			var infospotgd3 = new PANOLENS.Infospot(512, hotspotIcons[11].data, true);
@@ -1439,7 +1428,7 @@
 			gf.add(infospotgf2);
 
 			infospotgf2.addEventListener("click", function () {
-				showMedia(1, "/glmvirtualtour/images/f2.jpg");
+				showMedia(1, "/glmvirtualtour/images/f2.gif");
 			});
 
 			var infospotgf3 = new PANOLENS.Infospot(512, hotspotIcons[11].data, true);
@@ -1475,7 +1464,7 @@
 			gg.add(infospotgg1);
 
 			infospotgg1.addEventListener("click", function () {
-				showMedia(1, "/glmvirtualtour/images/sduakimia.jpg");
+				showMedia(1, "/glmvirtualtour/images/sduakimia.gif");
 			});
 
 			var infospotgg2 = new PANOLENS.Infospot(512, hotspotIcons[11].data, true);
@@ -1558,7 +1547,7 @@
 			geb.add(infospotgeb2);
 
 			infospotgeb2.addEventListener("click", function () {
-				showMedia(1, "/glmvirtualtour/images/f3.jpg");
+				showMedia(1, "/glmvirtualtour/images/f3.gif");
 			});
 
 			var infospotgeb3 = new PANOLENS.Infospot(
@@ -1598,7 +1587,7 @@
 			gec.add(infospotgec1);
 
 			infospotgec1.addEventListener("click", function () {
-				showMedia(1, "/glmvirtualtour/images/f4.jpg");
+				showMedia(1, "/glmvirtualtour/images/f4.gif");
 			});
 
 			var infospotgec2 = new PANOLENS.Infospot(
@@ -1646,7 +1635,7 @@
 			h.add(infospoth2);
 
 			infospoth2.addEventListener("click", function () {
-				showMedia(1, "/glmvirtualtour/images/c3.jpg");
+				showMedia(1, "/glmvirtualtour/images/c3.gif");
 			});
 
 			var infospoth3 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
@@ -1655,7 +1644,7 @@
 			h.add(infospoth3);
 
 			infospoth3.addEventListener("click", function () {
-				showMedia(1, "/glmvirtualtour/images/ukm.jpg");
+				showMedia(1, "/glmvirtualtour/images/ukm.gif");
 			});
 
 			var infospoth4 = new PANOLENS.Infospot(512, hotspotIcons[11].data, true);
@@ -1742,7 +1731,7 @@
 			ia.add(infospotia2);
 
 			infospotia2.addEventListener("click", function () {
-				showMedia(1, "/glmvirtualtour/images/aula1.jpg");
+				showMedia(1, "/glmvirtualtour/images/aula1.gif");
 			});
 
 			var infospotia3 = new PANOLENS.Infospot(512, hotspotIcons[11].data, true);
@@ -1778,7 +1767,7 @@
 			ib.add(infospotib1);
 
 			infospotib1.addEventListener("click", function () {
-				showMedia(1, "/glmvirtualtour/images/aula2.jpg");
+				showMedia(1, "/glmvirtualtour/images/aula2.gif");
 			});
 
 			var infospotib2 = new PANOLENS.Infospot(512, hotspotIcons[11].data, true);
@@ -1892,7 +1881,7 @@
 			l.add(infospotl2);
 
 			infospotl2.addEventListener("click", function () {
-				showMedia(1, "/glmvirtualtour/images/zologi.jpg");
+				showMedia(1, "/glmvirtualtour/images/zologi.gif");
 			});
 
 			var infospotl3 = new PANOLENS.Infospot(512, hotspotIcons[11].data, true);
@@ -2188,47 +2177,47 @@
 
 			/*customjs*/
 			function chclickinfospotgldalam1() {
-				showMedia(1, "/glmvirtualtour/images/jurusanbio.jpg");
+				showMedia(1, "/glmvirtualtour/images/jurusanbio.gif");
 			}
 
 			function chclickinfospotgldalam2() {
-				showMedia(1, "/glmvirtualtour/images/dosenbio.jpg");
+				showMedia(1, "/glmvirtualtour/images/dosenbio.gif");
 			}
 
 			function chclickinfospotgldalam4() {
-				showMedia(1, "/glmvirtualtour/images/kimia.jpg");
+				showMedia(1, "/glmvirtualtour/images/kimia.gif");
 			}
 
 			function chclickinfospotb2() {
-				showMedia(1, "/glmvirtualtour/images/biologi.jpg");
+				showMedia(1, "/glmvirtualtour/images/biologi.gif");
 			}
 
 			function chclickinfospotb3() {
-				showMedia(1, "/glmvirtualtour/images/ekologi.jpg");
+				showMedia(1, "/glmvirtualtour/images/ekologi.gif");
 			}
 
 			function chclickinfospotc2() {
-				showMedia(1, "/glmvirtualtour/images/kulturjaringan.jpg");
+				showMedia(1, "/glmvirtualtour/images/kulturjaringan.gif");
 			}
 
 			function chclickinfospotd2() {
-				showMedia(1, "/glmvirtualtour/images/mikro.jpg");
+				showMedia(1, "/glmvirtualtour/images/mikro.gif");
 			}
 
 			function chclickinfospote2() {
-				showMedia(1, "/glmvirtualtour/images/c1.jpg");
+				showMedia(1, "/glmvirtualtour/images/c1.gif");
 			}
 
 			function chclickinfospotf2() {
-				showMedia(1, "/glmvirtualtour/images/kimiaorganik.jpg");
+				showMedia(1, "/glmvirtualtour/images/kimiaorganik.gif");
 			}
 
 			function chclickinfospotg3() {
-				showMedia(1, "/glmvirtualtour/images/bem.jpg");
+				showMedia(1, "/glmvirtualtour/images/bem.gif");
 			}
 
 			function chclickinfospotg5() {
-				showMedia(1, "/glmvirtualtour/images/c2.jpg");
+				showMedia(1, "/glmvirtualtour/images/c2.gif");
 			}
 
 			function chclickinfospotga2() {
@@ -2236,15 +2225,15 @@
 			}
 
 			function chclickinfospotgb2() {
-				showMedia(1, "/glmvirtualtour/images/hima.jpg");
+				showMedia(1, "/glmvirtualtour/images/hima.gif");
 			}
 
 			function chclickinfospotgc2() {
-				showMedia(1, "/glmvirtualtour/images/kimiab.jpg");
+				showMedia(1, "/glmvirtualtour/images/kimiab.gif");
 			}
 
 			function chclickinfospotgd2() {
-				showMedia(1, "/glmvirtualtour/images/sidang.jpg");
+				showMedia(1, "/glmvirtualtour/images/sidang.gif");
 			}
 
 			function chclickinfospotge3() {
@@ -2252,39 +2241,39 @@
 			}
 
 			function chclickinfospotgf2() {
-				showMedia(1, "/glmvirtualtour/images/f2.jpg");
+				showMedia(1, "/glmvirtualtour/images/f2.gif");
 			}
 
 			function chclickinfospotgg1() {
-				showMedia(1, "/glmvirtualtour/images/sduakimia.jpg");
+				showMedia(1, "/glmvirtualtour/images/sduakimia.gif");
 			}
 
 			function chclickinfospotgeb2() {
-				showMedia(1, "/glmvirtualtour/images/f3.jpg");
+				showMedia(1, "/glmvirtualtour/images/f3.gif");
 			}
 
 			function chclickinfospotgec1() {
-				showMedia(1, "/glmvirtualtour/images/f4.jpg");
+				showMedia(1, "/glmvirtualtour/images/f4.gif");
 			}
 
 			function chclickinfospoth2() {
-				showMedia(1, "/glmvirtualtour/images/c3.jpg");
+				showMedia(1, "/glmvirtualtour/images/c3.gif");
 			}
 
 			function chclickinfospoth3() {
-				showMedia(1, "/glmvirtualtour/images/ukm.jpg");
+				showMedia(1, "/glmvirtualtour/images/ukm.gif");
 			}
 
 			function chclickinfospotia2() {
-				showMedia(1, "/glmvirtualtour/images/aula1.jpg");
+				showMedia(1, "/glmvirtualtour/images/aula1.gif");
 			}
 
 			function chclickinfospotib1() {
-				showMedia(1, "/glmvirtualtour/images/aula2.jpg");
+				showMedia(1, "/glmvirtualtour/images/aula2.gif");
 			}
 
 			function chclickinfospotl2() {
-				showMedia(1, "/glmvirtualtour/images/zologi.jpg");
+				showMedia(1, "/glmvirtualtour/images/zologi.gif");
 			}
 			/*customjs-end*/
 			/*nav*/
@@ -2333,9 +2322,7 @@
 			document.getElementById("gl9").addEventListener("click", function () {
 				ChangePanorama("h");
 			});
-			document.getElementById("gl10").addEventListener("click", function () {
-				ChangePanorama("i");
-			});
+			
 			document.getElementById("gl10.1").addEventListener("click", function () {
 				ChangePanorama("ia");
 			});

@@ -133,19 +133,19 @@
 							</tr>
 							<tr>
 								<td><button type="button" id="s1.2" class="btn btn-primary btn-block mb-2"
-										tabindex="0">R. siskon 4</button></td>
+										tabindex="0">R. siskom 4</button></td>
 							</tr>
 							<tr>
 								<td><button type="button" id="s1.3" class="btn btn-primary btn-block mb-2"
-										tabindex="0">R. siskon 3</button></td>
+										tabindex="0">R. siskom 3</button></td>
 							</tr>
 							<tr>
 								<td><button type="button" id="s1.4" class="btn btn-primary btn-block mb-2"
-										tabindex="0">R. siskon 2</button></td>
+										tabindex="0">R. siskom 2</button></td>
 							</tr>
 							<tr>
 								<td><button type="button" id="s1.5" class="btn btn-primary btn-block mb-2"
-										tabindex="0">R. siskon 1</button></td>
+										tabindex="0">R. siskom 1</button></td>
 							</tr>
 
 							
@@ -305,7 +305,7 @@
 
 		infospotsdalam1.addEventListener('click', function () {
 
-			showMedia(1, '/sisvirtualtour/images/dosen.jpg');
+			showMedia(1, '/sisvirtualtour/images/dosen.gif');
 
 		});
 
@@ -412,7 +412,7 @@
 
 		infospotb2.addEventListener('click', function () {
 
-			showMedia(1, '/sisvirtualtour/images/koma.jpg');
+			showMedia(1, '/sisvirtualtour/images/koma.gif');
 
 		});
 
@@ -476,7 +476,7 @@
 
 		infospotc3.addEventListener('click', function () {
 
-			showMedia(1, '/sisvirtualtour/images/komb.jpg');
+			showMedia(1, '/sisvirtualtour/images/komb.gif');
 
 		});
 
@@ -530,7 +530,7 @@
 
 		infospotd2.addEventListener('click', function () {
 
-			showMedia(1, '/sisvirtualtour/images/worksop.jpg');
+			showMedia(1, '/sisvirtualtour/images/worksop.gif');
 
 		});
 
@@ -670,7 +670,7 @@
 
 		infospotbb2.addEventListener('click', function () {
 
-			showMedia(1, '/sisvirtualtour/images/sis4.jpg');
+			showMedia(1, '/sisvirtualtour/images/sis4.gif');
 
 		});
 
@@ -724,7 +724,7 @@
 
 		infospotcc2.addEventListener('click', function () {
 
-			showMedia(1, '/sisvirtualtour/images/sis3.jpg');
+			showMedia(1, '/sisvirtualtour/images/sis3.gif');
 
 		});
 
@@ -735,7 +735,7 @@
 
 		infospotcc3.addEventListener('click', function () {
 
-			showMedia(1, '/sisvirtualtour/images/sis2.jpg');
+			showMedia(1, '/sisvirtualtour/images/sis2.gif');
 
 		});
 
@@ -832,7 +832,7 @@
 
 		infospotee2.addEventListener('click', function () {
 
-			showMedia(1, '/sisvirtualtour/images/sis1.jpg');
+			showMedia(1, '/sisvirtualtour/images/sis1.gif');
 
 		});
 
@@ -1002,42 +1002,42 @@
 
 		/*customjs*/
 		function chclickinfospotsdalam1() {
-			showMedia(1, '/sisvirtualtour/images/dosen.jpg');
+			showMedia(1, '/sisvirtualtour/images/dosen.gif');
 
 		}
 
 		function chclickinfospotb2() {
-			showMedia(1, '/sisvirtualtour/images/koma.jpg');
+			showMedia(1, '/sisvirtualtour/images/koma.gif');
 
 		}
 
 		function chclickinfospotc3() {
-			showMedia(1, '/sisvirtualtour/images/komb.jpg');
+			showMedia(1, '/sisvirtualtour/images/komb.gif');
 
 		}
 
 		function chclickinfospotd2() {
-			showMedia(1, '/sisvirtualtour/images/worksop.jpg');
+			showMedia(1, '/sisvirtualtour/images/worksop.gif');
 
 		}
 
 		function chclickinfospotbb2() {
-			showMedia(1, '/sisvirtualtour/images/sis4.jpg');
+			showMedia(1, '/sisvirtualtour/images/sis4.gif');
 
 		}
 
 		function chclickinfospotcc2() {
-			showMedia(1, '/sisvirtualtour/images/sis3.jpg');
+			showMedia(1, '/sisvirtualtour/images/sis3.gif');
 
 		}
 
 		function chclickinfospotcc3() {
-			showMedia(1, '/sisvirtualtour/images/sis2.jpg');
+			showMedia(1, '/sisvirtualtour/images/sis2.gif');
 
 		}
 
 		function chclickinfospotee2() {
-			showMedia(1, '/sisvirtualtour/images/sis1.jpg');
+			showMedia(1, '/sisvirtualtour/images/sis1.gif');
 
 		}
 /*customjs-end*/

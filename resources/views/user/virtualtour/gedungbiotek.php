@@ -127,10 +127,7 @@
 								<td><button type="button" id="b5" class="btn btn-primary btn-block mb-2"
 										tabindex="0">WC</button></td>
 							</tr>
-							<tr>
-								<td><button type="button" id="b6" class="btn btn-primary btn-block mb-2"
-										tabindex="0">R. sidang</button></td>
-							</tr>
+						
 							<tr>
 								<td><button type="button" id="b7" class="btn btn-primary btn-block mb-2"
 										tabindex="0">R. laboratorium geofisika dan SIG</button></td>
@@ -145,7 +142,7 @@
 							</tr>
 							<tr>
 								<td><button type="button" id="b10" class="btn btn-primary btn-block mb-2"
-										tabindex="0">R. ASS</button></td>
+										tabindex="0">R. AAS</button></td>
 							</tr>
 							<tr>
 								<td><button type="button" id="b11" class="btn btn-primary btn-block mb-2"
@@ -194,10 +191,7 @@
 		<div onclick='chclickinfospote2();' id='infospote2' style='position: fixed; top: 0; left: 0; cursor: pointer;'>
 			<img src='/biovirtualtour/customhotspots/infospot.png' style='width: 64px; height: 64px;'></div>
 	</div>
-	<div class='customhotspot' id='f'>
-		<div onclick='chclickinfospotf2();' id='infospotf2' style='position: fixed; top: 0; left: 0; cursor: pointer;'>
-			<img src='/biovirtualtour/customhotspots/infospot.png' style='width: 64px; height: 64px;'></div>
-	</div>
+	
 	<div class='customhotspot' id='g'>
 		<div onclick='chclickinfospotg2();' id='infospotg2' style='position: fixed; top: 0; left: 0; cursor: pointer;'>
 			<img src='/biovirtualtour/customhotspots/infospot.png' style='width: 64px; height: 64px;'></div>
@@ -332,7 +326,7 @@
 
 		infospotb3.addEventListener('click', function () {
 
-			showMedia(1, '/biovirtualtour/images/ikel.jpg');
+			showMedia(1, '/biovirtualtour/images/ikel.gif');
 
 		});
 
@@ -343,7 +337,7 @@
 
 		infospotb4.addEventListener('click', function () {
 
-			showMedia(1, '/biovirtualtour/images/doesnfisika.jpg');
+			showMedia(1, '/biovirtualtour/images/doesnfisika.gif');
 
 		});
 
@@ -397,7 +391,7 @@
 
 		infospotc2.addEventListener('click', function () {
 
-			showMedia(1, '/biovirtualtour/images/jutfis.jpg');
+			showMedia(1, '/biovirtualtour/images/jutfis.gif');
 
 		});
 
@@ -408,7 +402,7 @@
 
 		infospotc3.addEventListener('click', function () {
 
-			showMedia(1, '/biovirtualtour/images/fisdas.jpg');
+			showMedia(1, '/biovirtualtour/images/fisdas.gif');
 
 		});
 
@@ -552,14 +546,14 @@
 
 		});
 
-		var infospotf2 = new PANOLENS.Infospot(512, hotspotIcons[0].data, true);
-		infospotf2.position.set(4399.79, 2332.76, -382.95);
+		var infospotf2 = new PANOLENS.Infospot(512, hotspotIcons[0].data, false);
+		infospotf2.position.set();
 		infospotf2.visible = false;
 		f.add(infospotf2);
 
 		infospotf2.addEventListener('click', function () {
 
-			showMedia(1, '/biovirtualtour/images/sidang.jpg');
+			showMedia(1, '');
 
 		});
 
@@ -613,7 +607,7 @@
 
 		infospotg2.addEventListener('click', function () {
 
-			showMedia(1, '/biovirtualtour/images/sig.jpg');
+			showMedia(1, '/biovirtualtour/images/sig.gif');
 
 		});
 
@@ -710,7 +704,7 @@
 
 		infospoth2.addEventListener('click', function () {
 
-			showMedia(1, '/biovirtualtour/images/pigmen.jpg');
+			showMedia(1, '/biovirtualtour/images/pigmen.gif');
 
 		});
 
@@ -764,7 +758,7 @@
 
 		infospoti2.addEventListener('click', function () {
 
-			showMedia(1, '/biovirtualtour/images/fislan.jpg');
+			showMedia(1, '/biovirtualtour/images/fislan.gif');
 
 		});
 
@@ -818,7 +812,7 @@
 
 		infospotj2.addEventListener('click', function () {
 
-			showMedia(1, '/biovirtualtour/images/ass.jpg');
+			showMedia(1, '/biovirtualtour/images/ass.gif');
 
 		});
 
@@ -872,7 +866,7 @@
 
 		infospotk2.addEventListener('click', function () {
 
-			showMedia(1, '/biovirtualtour/images/kepala.jpg');
+			showMedia(1, '/biovirtualtour/images/kepala.gif');
 
 		});
 
@@ -883,7 +877,7 @@
 
 		infospotk3.addEventListener('click', function () {
 
-			showMedia(1, '/biovirtualtour/images/kimiaor.jpg');
+			showMedia(1, '/biovirtualtour/images/kimiaor.gif');
 
 		});
 
@@ -1057,22 +1051,22 @@
 
 		/*customjs*/
 		function chclickinfospotb3() {
-			showMedia(1, '/biovirtualtour/images/ikel.jpg');
+			showMedia(1, '/biovirtualtour/images/ikel.gif');
 
 		}
 
 		function chclickinfospotb4() {
-			showMedia(1, '/biovirtualtour/images/doesnfisika.jpg');
+			showMedia(1, '/biovirtualtour/images/doesnfisika.gif');
 
 		}
 
 		function chclickinfospotc2() {
-			showMedia(1, '/biovirtualtour/images/jutfis.jpg');
+			showMedia(1, '/biovirtualtour/images/jutfis.gif');
 
 		}
 
 		function chclickinfospotc3() {
-			showMedia(1, '/biovirtualtour/images/fisdas.jpg');
+			showMedia(1, '/biovirtualtour/images/fisdas.gif');
 
 		}
 
@@ -1087,32 +1081,32 @@
 		}
 
 		function chclickinfospotg2() {
-			showMedia(1, '/biovirtualtour/images/sig.jpg');
+			showMedia(1, '/biovirtualtour/images/sig.gif');
 
 		}
 
 		function chclickinfospoth2() {
-			showMedia(1, '/biovirtualtour/images/pigmen.jpg');
+			showMedia(1, '/biovirtualtour/images/pigmen.gif');
 
 		}
 
 		function chclickinfospoti2() {
-			showMedia(1, '/biovirtualtour/images/fislan.jpg');
+			showMedia(1, '/biovirtualtour/images/fislan.gif');
 
 		}
 
 		function chclickinfospotj2() {
-			showMedia(1, '/biovirtualtour/images/ass.jpg');
+			showMedia(1, '/biovirtualtour/images/ass.gif');
 
 		}
 
 		function chclickinfospotk2() {
-			showMedia(1, '/biovirtualtour/images/kepala.jpg');
+			showMedia(1, '/biovirtualtour/images/kepala.gif');
 
 		}
 
 		function chclickinfospotk3() {
-			showMedia(1, '/biovirtualtour/images/kimiaor.jpg');
+			showMedia(1, '/biovirtualtour/images/kimiaor.gif');
 
 		}
 /*customjs-end*/
